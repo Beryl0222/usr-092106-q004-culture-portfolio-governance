@@ -1,0 +1,9 @@
+{
+  "event_id": "092106-004-sample-001",
+  "event_type": "APPLICATION_RECEIVED",
+  "aggregate_type": "policy_goal",
+  "aggregate_id": "culture_portfolio_governance-001",
+  "occurred_at": "2026-09-20T15:00:00+08:00",
+  "version": 1,
+  "summary": "登记文化项目组合治理的首条领域记录"
+}
