@@ -1,6 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "文化项目组合治理领域事件",
+  "description": "基础信封字段保持必填且语义不变；新增事件类型、聚合类型与可选追溯字段均为向后兼容扩展。业务更正只能追加更高 version 的后继事件，不得原地改写。",
   "type": "object",
   "required": [
     "event_id",
@@ -23,7 +24,37 @@
         "CONFLICT_DECLARED",
         "FUNDING_APPROVED",
         "MILESTONE_VERIFIED",
-        "FUNDS_RECOVERED"
+        "FUNDS_RECOVERED",
+        "POLICY_GOAL_DEFINED",
+        "POLICY_RENAMED",
+        "TARGET_SET",
+        "TARGET_ADJUSTED",
+        "METRIC_DEFINED",
+        "ASSESSMENT_PERIOD_OPENED",
+        "ASSESSMENT_PERIOD_LOCKED",
+        "FUNDING_STREAM_OPENED",
+        "FUNDING_STREAM_RENAMED",
+        "SUBJECT_REGISTERED",
+        "CONTROL_RELATION_DECLARED",
+        "REVIEW_TASK_ASSIGNED",
+        "APPLICATION_AMENDED",
+        "APPLICATION_DUPLICATE_REJECTED",
+        "APPLICATION_WITHDRAWN",
+        "BUDGET_TRANSFER_REQUESTED",
+        "MILESTONE_DELAY_REQUESTED",
+        "PROJECT_TERMINATION_REQUESTED",
+        "RECUSAL_DECIDED",
+        "BUDGET_TRANSFER_DECIDED",
+        "MILESTONE_DELAY_DECIDED",
+        "PROJECT_TERMINATION_DECIDED",
+        "FUNDS_RECOVERY_DECIDED",
+        "CONTRACT_RECORDED",
+        "PAYMENT_REQUESTED",
+        "PAYMENT_EXECUTED",
+        "PAYMENT_BLOCKED",
+        "EVIDENCE_SUBMITTED",
+        "EVIDENCE_DEDUPLICATED",
+        "OUTCOME_DEDUPLICATED"
       ]
     },
     "aggregate_type": {
@@ -32,7 +63,13 @@
         "policy_goal",
         "funding_application",
         "funded_project",
-        "outcome_measure"
+        "outcome_measure",
+        "funding_stream",
+        "assessment_period",
+        "applicant_subject",
+        "decision_record",
+        "contract_payment",
+        "evidence_pack"
       ]
     },
     "aggregate_id": {
@@ -50,6 +87,35 @@
     "summary": {
       "type": "string",
       "minLength": 1
+    },
+    "actor_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actor_role": {
+      "type": "string",
+      "enum": [
+        "PROVINCIAL_PLAN_OFFICER",
+        "PROVINCIAL_FINANCE_OFFICER",
+        "REVIEWER",
+        "COUNTY_OFFICER",
+        "APPLICANT",
+        "PUBLIC"
+      ]
+    },
+    "causation_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "触发本事件的上游事件或决定编号，构成决定链。"
+    },
+    "idempotency_key": {
+      "type": "string",
+      "minLength": 1,
+      "description": "申报/支付等入口幂等键，重复提交只产生一次业务效果。"
+    },
+    "payload": {
+      "type": "object",
+      "description": "事件业务载荷，结构由事件类型约定，见 src/catalog.js 与 docs/领域模型.md。"
     }
   },
   "additionalProperties": true

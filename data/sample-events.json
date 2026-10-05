@@ -1,0 +1,1260 @@
+[
+  {
+    "event_id": "E001",
+    "event_type": "POLICY_GOAL_DEFINED",
+    "aggregate_type": "policy_goal",
+    "aggregate_id": "goal-155-culture",
+    "occurred_at": "2026-01-10T09:00:00+08:00",
+    "version": 1,
+    "summary": "印发文化产业“十五五”规划，确立省级文化项目组合总目标",
+    "actor_id": "U-PLAN-01",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": {
+      "code": "155-CULTURE",
+      "name": "文化产业“十五五”高质量发展目标",
+      "approval_no": "川文规〔2026〕1号",
+      "metric_ids": ["M-TECH-01", "M-COUNTY-01", "M-TOUR-01", "M-OVERSEAS-01"]
+    }
+  },
+  {
+    "event_id": "E002",
+    "event_type": "FUNDING_STREAM_OPENED",
+    "aggregate_type": "funding_stream",
+    "aggregate_id": "stream-tech",
+    "occurred_at": "2026-01-12T09:00:00+08:00",
+    "version": 1,
+    "summary": "开放文化科技融合专项资金",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "stream_code": "KJRH-2026", "category": "科技融合", "name": "文化科技融合专项", "approval_no": "川文财〔2026〕3号" }
+  },
+  {
+    "event_id": "E003",
+    "event_type": "FUNDING_STREAM_OPENED",
+    "aggregate_type": "funding_stream",
+    "aggregate_id": "stream-county",
+    "occurred_at": "2026-01-12T09:10:00+08:00",
+    "version": 1,
+    "summary": "开放县域文化消费专项资金",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "stream_code": "XYXF-2026", "category": "县域文化消费", "name": "县域文化消费专项", "approval_no": "川文财〔2026〕4号" }
+  },
+  {
+    "event_id": "E004",
+    "event_type": "FUNDING_STREAM_OPENED",
+    "aggregate_type": "funding_stream",
+    "aggregate_id": "stream-tour",
+    "occurred_at": "2026-01-12T09:20:00+08:00",
+    "version": 1,
+    "summary": "开放文旅协同发展专项资金",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "stream_code": "WLXT-2026", "category": "文旅协同", "name": "文旅协同发展专项", "approval_no": "川文财〔2026〕5号" }
+  },
+  {
+    "event_id": "E005",
+    "event_type": "FUNDING_STREAM_OPENED",
+    "aggregate_type": "funding_stream",
+    "aggregate_id": "stream-overseas",
+    "occurred_at": "2026-01-12T09:30:00+08:00",
+    "version": 1,
+    "summary": "开放海外发行申报通道",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "stream_code": "HWFB-2026", "category": "海外发行", "name": "海外发行扶持专项", "approval_no": "川文财〔2026〕6号" }
+  },
+  {
+    "event_id": "E006",
+    "event_type": "ASSESSMENT_PERIOD_OPENED",
+    "aggregate_type": "assessment_period",
+    "aggregate_id": "period-2026",
+    "occurred_at": "2026-01-15T09:00:00+08:00",
+    "version": 1,
+    "summary": "开放2026年度考核期",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "goal_id": "goal-155-culture", "year": 2026 }
+  },
+  {
+    "event_id": "E007",
+    "event_type": "TARGET_SET",
+    "aggregate_type": "policy_goal",
+    "aggregate_id": "goal-155-culture",
+    "occurred_at": "2026-01-16T09:00:00+08:00",
+    "version": 2,
+    "summary": "下达2026年度文化科技融合成果转化指标30项",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "period_id": "period-2026", "metric_id": "M-TECH-01", "target_value": 30 }
+  },
+  {
+    "event_id": "E008",
+    "event_type": "TARGET_SET",
+    "aggregate_type": "policy_goal",
+    "aggregate_id": "goal-155-culture",
+    "occurred_at": "2026-01-16T09:10:00+08:00",
+    "version": 3,
+    "summary": "下达2026年度县域文化消费800万人次指标",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "period_id": "period-2026", "metric_id": "M-COUNTY-01", "target_value": 800 }
+  },
+  {
+    "event_id": "E009",
+    "event_type": "TARGET_SET",
+    "aggregate_type": "policy_goal",
+    "aggregate_id": "goal-155-culture",
+    "occurred_at": "2026-01-16T09:20:00+08:00",
+    "version": 4,
+    "summary": "下达2026年度文旅协同接待500万人次指标",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "period_id": "period-2026", "metric_id": "M-TOUR-01", "target_value": 500 }
+  },
+  {
+    "event_id": "E010",
+    "event_type": "TARGET_SET",
+    "aggregate_type": "policy_goal",
+    "aggregate_id": "goal-155-culture",
+    "occurred_at": "2026-01-16T09:30:00+08:00",
+    "version": 5,
+    "summary": "下达2026年度海外发行落地20项指标",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "period_id": "period-2026", "metric_id": "M-OVERSEAS-01", "target_value": 20 }
+  },
+  {
+    "event_id": "E011",
+    "event_type": "METRIC_DEFINED",
+    "aggregate_type": "outcome_measure",
+    "aggregate_id": "M-TECH-01",
+    "occurred_at": "2026-01-16T10:00:00+08:00",
+    "version": 1,
+    "summary": "定义指标：文化科技融合成果转化数（按软著登记号去重）",
+    "payload": { "metric_id": "M-TECH-01", "name": "文化科技融合成果转化数", "unit": "项" }
+  },
+  {
+    "event_id": "E012",
+    "event_type": "METRIC_DEFINED",
+    "aggregate_type": "outcome_measure",
+    "aggregate_id": "M-COUNTY-01",
+    "occurred_at": "2026-01-16T10:10:00+08:00",
+    "version": 1,
+    "summary": "定义指标：县域文化消费人次（按活动场次ID去重）",
+    "payload": { "metric_id": "M-COUNTY-01", "name": "县域文化消费人次", "unit": "万人次" }
+  },
+  {
+    "event_id": "E013",
+    "event_type": "METRIC_DEFINED",
+    "aggregate_type": "outcome_measure",
+    "aggregate_id": "M-TOUR-01",
+    "occurred_at": "2026-01-16T10:20:00+08:00",
+    "version": 1,
+    "summary": "定义指标：文旅协同带动接待量（按活动场次ID去重）",
+    "payload": { "metric_id": "M-TOUR-01", "name": "文旅协同带动接待量", "unit": "万人次" }
+  },
+  {
+    "event_id": "E014",
+    "event_type": "METRIC_DEFINED",
+    "aggregate_type": "outcome_measure",
+    "aggregate_id": "M-OVERSEAS-01",
+    "occurred_at": "2026-01-16T10:30:00+08:00",
+    "version": 1,
+    "summary": "定义指标：海外发行落地数（按海外发行备案号去重）",
+    "payload": { "metric_id": "M-OVERSEAS-01", "name": "海外发行落地数", "unit": "项" }
+  },
+
+  {
+    "event_id": "E015",
+    "event_type": "SUBJECT_REGISTERED",
+    "aggregate_type": "applicant_subject",
+    "aggregate_id": "S-XINGHAN",
+    "occurred_at": "2026-02-01T09:00:00+08:00",
+    "version": 1,
+    "summary": "星瀚文化集团完成主体登记",
+    "payload": { "name": "星瀚文化集团有限公司", "unified_credit_code": "91510100MA6XH0001", "control_group_id": "G-XINGHAN" }
+  },
+  {
+    "event_id": "E016",
+    "event_type": "SUBJECT_REGISTERED",
+    "aggregate_type": "applicant_subject",
+    "aggregate_id": "S-XINGHAN-DIGITAL",
+    "occurred_at": "2026-02-02T09:00:00+08:00",
+    "version": 1,
+    "summary": "星瀚数字科技子公司完成主体登记",
+    "payload": { "name": "星瀚数字科技有限公司", "unified_credit_code": "91510100MA6XH0002", "control_group_id": "G-XINGHAN-DIGITAL" }
+  },
+  {
+    "event_id": "E017",
+    "event_type": "CONTROL_RELATION_DECLARED",
+    "aggregate_type": "applicant_subject",
+    "aggregate_id": "S-XINGHAN-DIGITAL",
+    "occurred_at": "2026-02-03T09:00:00+08:00",
+    "version": 2,
+    "summary": "申报穿透：星瀚数字为星瀚文化集团控股子公司",
+    "payload": { "parent_subject_id": "S-XINGHAN", "relation": "控股80%" }
+  },
+  {
+    "event_id": "E018",
+    "event_type": "SUBJECT_REGISTERED",
+    "aggregate_type": "applicant_subject",
+    "aggregate_id": "S-QL",
+    "occurred_at": "2026-02-04T09:00:00+08:00",
+    "version": 1,
+    "summary": "青岚文旅公司完成主体登记",
+    "payload": { "name": "青岚文旅发展有限公司", "unified_credit_code": "91510221MAQL00001", "control_group_id": "G-QINGLAN" }
+  },
+  {
+    "event_id": "E019",
+    "event_type": "SUBJECT_REGISTERED",
+    "aggregate_type": "applicant_subject",
+    "aggregate_id": "S-YS",
+    "occurred_at": "2026-02-04T09:10:00+08:00",
+    "version": 1,
+    "summary": "远山文旅运营公司完成主体登记",
+    "payload": { "name": "远山文旅运营有限公司", "unified_credit_code": "91510122MAYS00001", "control_group_id": "G-YUANSHAN" }
+  },
+  {
+    "event_id": "E020",
+    "event_type": "SUBJECT_REGISTERED",
+    "aggregate_type": "applicant_subject",
+    "aggregate_id": "S-YF",
+    "occurred_at": "2026-02-05T09:00:00+08:00",
+    "version": 1,
+    "summary": "云帆互娱公司完成主体登记",
+    "payload": { "name": "云帆互娱有限公司", "unified_credit_code": "91510200MAYF00001", "control_group_id": "G-YUNFAN" }
+  },
+  {
+    "event_id": "E021",
+    "event_type": "SUBJECT_REGISTERED",
+    "aggregate_type": "applicant_subject",
+    "aggregate_id": "S-TL",
+    "occurred_at": "2026-02-05T09:10:00+08:00",
+    "version": 1,
+    "summary": "同路光影公司完成主体登记",
+    "payload": { "name": "同路光影有限公司", "unified_credit_code": "91510100MATL00001", "control_group_id": "G-TONGLU" }
+  },
+  {
+    "event_id": "E022",
+    "event_type": "SUBJECT_REGISTERED",
+    "aggregate_type": "applicant_subject",
+    "aggregate_id": "S-HM",
+    "occurred_at": "2026-02-05T09:20:00+08:00",
+    "version": 1,
+    "summary": "禾木演出公司（联合申报参与方）完成主体登记",
+    "payload": { "name": "禾木演出有限公司", "unified_credit_code": "91510122MAHM00001", "control_group_id": "G-HEMU" }
+  },
+
+  {
+    "event_id": "E023",
+    "event_type": "APPLICATION_RECEIVED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "APP-XH-TECH",
+    "occurred_at": "2026-02-10T14:00:00+08:00",
+    "version": 1,
+    "summary": "星瀚数字申报文化科技融合专项：AIGC演艺内容平台",
+    "idempotency_key": "IDEMP-APP-XH-001",
+    "payload": {
+      "stream_id": "stream-tech",
+      "goal_id": "goal-155-culture",
+      "period_id": "period-2026",
+      "lead_subject_id": "S-XINGHAN-DIGITAL",
+      "co_subject_ids": [],
+      "budget_requested_wan": 520,
+      "regions": ["510121", "510122"],
+      "metric_contributions": [{ "metric_id": "M-TECH-01" }],
+      "expense_items": [
+        { "item_key": "EXP-AIGC-CLUSTER", "name": "AIGC渲染集群租赁与算力服务", "amount_wan": 220 }
+      ]
+    }
+  },
+  {
+    "event_id": "E024",
+    "event_type": "APPLICATION_RECEIVED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "APP-XH-COUNTY",
+    "occurred_at": "2026-02-12T14:00:00+08:00",
+    "version": 1,
+    "summary": "星瀚集团申报县域文化消费专项：数字影院进县域",
+    "payload": {
+      "stream_id": "stream-county",
+      "goal_id": "goal-155-culture",
+      "period_id": "period-2026",
+      "lead_subject_id": "S-XINGHAN",
+      "co_subject_ids": [],
+      "budget_requested_wan": 300,
+      "regions": ["510121"],
+      "metric_contributions": [{ "metric_id": "M-COUNTY-01" }],
+      "expense_items": [
+        { "item_key": "EXP-AIGC-CLUSTER", "name": "AIGC渲染集群租赁（同一笔算力支出）", "amount_wan": 220 }
+      ]
+    }
+  },
+  {
+    "event_id": "E025",
+    "event_type": "APPLICATION_RECEIVED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "APP-QL-COUNTY",
+    "occurred_at": "2026-02-14T10:00:00+08:00",
+    "version": 1,
+    "summary": "青岚文旅申报县域文化消费专项：远安县乡村文化消费季",
+    "payload": {
+      "stream_id": "stream-county",
+      "goal_id": "goal-155-culture",
+      "period_id": "period-2026",
+      "lead_subject_id": "S-QL",
+      "co_subject_ids": [],
+      "budget_requested_wan": 260,
+      "regions": ["510221"],
+      "metric_contributions": [{ "metric_id": "M-COUNTY-01" }, { "metric_id": "M-TOUR-01" }],
+      "expense_items": [{ "item_key": "EXP-QL-FAIR", "name": "县域消费季活动执行", "amount_wan": 180 }]
+    }
+  },
+  {
+    "event_id": "E026",
+    "event_type": "APPLICATION_RECEIVED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "APP-YS-TOUR",
+    "occurred_at": "2026-02-14T11:00:00+08:00",
+    "version": 1,
+    "summary": "远山文旅联合禾木演出申报文旅协同专项：岚山远安廊道",
+    "payload": {
+      "stream_id": "stream-tour",
+      "goal_id": "goal-155-culture",
+      "period_id": "period-2026",
+      "lead_subject_id": "S-YS",
+      "co_subject_ids": ["S-HM"],
+      "budget_requested_wan": 400,
+      "regions": ["510122", "510221"],
+      "metric_contributions": [{ "metric_id": "M-TOUR-01" }, { "metric_id": "M-COUNTY-01" }],
+      "expense_items": [{ "item_key": "EXP-YS-CORRIDOR", "name": "廊道运营与联合营销", "amount_wan": 260 }]
+    }
+  },
+  {
+    "event_id": "E027",
+    "event_type": "APPLICATION_RECEIVED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "APP-YF-OVERSEAS",
+    "occurred_at": "2026-02-16T10:00:00+08:00",
+    "version": 1,
+    "summary": "云帆互娱申报海外发行专项：国风互动剧欧洲发行",
+    "payload": {
+      "stream_id": "stream-overseas",
+      "goal_id": "goal-155-culture",
+      "period_id": "period-2026",
+      "lead_subject_id": "S-YF",
+      "co_subject_ids": [],
+      "budget_requested_wan": 220,
+      "regions": ["510200", "510221"],
+      "metric_contributions": [{ "metric_id": "M-OVERSEAS-01" }],
+      "expense_items": [{ "item_key": "EXP-YF-EU", "name": "欧洲本地化与渠道发行", "amount_wan": 150 }]
+    }
+  },
+  {
+    "event_id": "E028",
+    "event_type": "APPLICATION_RECEIVED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "APP-TL-TECH",
+    "occurred_at": "2026-02-16T11:00:00+08:00",
+    "version": 1,
+    "summary": "同路光影申报科技融合专项：沉浸式光影装置研发",
+    "payload": {
+      "stream_id": "stream-tech",
+      "goal_id": "goal-155-culture",
+      "period_id": "period-2026",
+      "lead_subject_id": "S-TL",
+      "co_subject_ids": [],
+      "budget_requested_wan": 360,
+      "regions": ["510100"],
+      "metric_contributions": [{ "metric_id": "M-TECH-01" }],
+      "expense_items": [{ "item_key": "EXP-TL-DEVICE", "name": "光影装置中试", "amount_wan": 240 }]
+    }
+  },
+  {
+    "event_id": "E029",
+    "event_type": "APPLICATION_DUPLICATE_REJECTED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "APP-XH-TECH",
+    "occurred_at": "2026-02-15T09:00:00+08:00",
+    "version": 2,
+    "summary": "企业重复提交（同项目改投海外发行通道）被幂等拒收，不产生二次受理",
+    "idempotency_key": "IDEMP-APP-XH-001",
+    "payload": { "duplicate_stream_id": "stream-overseas", "reason": "同一申报幂等键重复提交" }
+  },
+  {
+    "event_id": "E030",
+    "event_type": "CONFLICT_DECLARED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "APP-XH-COUNTY",
+    "occurred_at": "2026-02-18T15:00:00+08:00",
+    "version": 2,
+    "summary": "系统预警：同一控制集团把AIGC算力支出拆入科技融合与县域消费两个专项",
+    "payload": { "suspect_application_ids": ["APP-XH-TECH"], "matched_item_key": "EXP-AIGC-CLUSTER", "control_group_id": "G-XINGHAN" }
+  },
+  {
+    "event_id": "E031",
+    "event_type": "APPLICATION_WITHDRAWN",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "APP-XH-COUNTY",
+    "occurred_at": "2026-02-20T10:00:00+08:00",
+    "version": 3,
+    "summary": "经冲突核查，企业撤回县域消费专项申报，重复列支风险解除",
+    "payload": { "reason": "与APP-XH-TECH支出重复，主动撤回" }
+  },
+
+  {
+    "event_id": "E032",
+    "event_type": "REVIEW_TASK_ASSIGNED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "APP-XH-TECH",
+    "occurred_at": "2026-03-01T09:00:00+08:00",
+    "version": 3,
+    "summary": "向评审专家RV-001派发星瀚数字项目",
+    "payload": { "application_ids": ["APP-XH-TECH"], "reviewer_id": "RV-001", "control_group_id": "G-XINGHAN" }
+  },
+  {
+    "event_id": "E033",
+    "event_type": "RECUSAL_DECIDED",
+    "aggregate_type": "decision_record",
+    "aggregate_id": "DEC-REC-001",
+    "occurred_at": "2026-03-02T11:00:00+08:00",
+    "version": 1,
+    "summary": "决定：RV-001与申报主体同属星瀚控制集团，应予回避",
+    "actor_id": "U-PLAN-01",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "causation_id": "E032",
+    "payload": { "application_id": "APP-XH-TECH", "reviewer_id": "RV-001", "recused": true, "reason": "与申报主体存在控制关系" }
+  },
+  {
+    "event_id": "E034",
+    "event_type": "REVIEW_TASK_ASSIGNED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "APP-XH-TECH",
+    "occurred_at": "2026-03-05T09:00:00+08:00",
+    "version": 4,
+    "summary": "回避后改派评审专家RV-002",
+    "payload": { "application_ids": ["APP-XH-TECH"], "reviewer_id": "RV-002" }
+  },
+
+  {
+    "event_id": "E035",
+    "event_type": "FUNDING_APPROVED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-XH-TECH",
+    "occurred_at": "2026-03-20T16:00:00+08:00",
+    "version": 1,
+    "summary": "批复星瀚数字AIGC演艺内容平台，资助500万元",
+    "actor_id": "U-PLAN-01",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "causation_id": "E023",
+    "payload": {
+      "application_id": "APP-XH-TECH",
+      "stream_id": "stream-tech",
+      "goal_id": "goal-155-culture",
+      "period_id": "period-2026",
+      "lead_subject_id": "S-XINGHAN-DIGITAL",
+      "co_subject_ids": [],
+      "approved_wan": 500,
+      "regions": ["510121", "510122"],
+      "milestone_schedule": [
+        { "code": "M1", "name": "平台试运营与首批成果登记", "due_date": "2026-08-31" },
+        { "code": "M2", "name": "县域场景规模化应用", "due_date": "2027-03-31" }
+      ]
+    }
+  },
+  {
+    "event_id": "E036",
+    "event_type": "FUNDING_APPROVED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-QL-COUNTY",
+    "occurred_at": "2026-03-22T16:00:00+08:00",
+    "version": 1,
+    "summary": "批复青岚文旅乡村文化消费季，资助240万元",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "causation_id": "E025",
+    "payload": {
+      "application_id": "APP-QL-COUNTY",
+      "stream_id": "stream-county",
+      "goal_id": "goal-155-culture",
+      "period_id": "period-2026",
+      "lead_subject_id": "S-QL",
+      "co_subject_ids": [],
+      "approved_wan": 240,
+      "regions": ["510221"],
+      "milestone_schedule": [
+        { "code": "M1", "name": "秋季消费季举办", "due_date": "2026-09-30" },
+        { "code": "M2", "name": "跨县联合惠民展销", "due_date": "2026-12-31" }
+      ]
+    }
+  },
+  {
+    "event_id": "E037",
+    "event_type": "FUNDING_APPROVED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-YS-TOUR",
+    "occurred_at": "2026-03-22T16:30:00+08:00",
+    "version": 1,
+    "summary": "批复远山文旅（联合禾木演出）廊道项目，资助380万元",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "causation_id": "E026",
+    "payload": {
+      "application_id": "APP-YS-TOUR",
+      "stream_id": "stream-tour",
+      "goal_id": "goal-155-culture",
+      "period_id": "period-2026",
+      "lead_subject_id": "S-YS",
+      "co_subject_ids": ["S-HM"],
+      "approved_wan": 380,
+      "regions": ["510122", "510221"],
+      "milestone_schedule": [
+        { "code": "M1", "name": "廊道黄金周运营", "due_date": "2026-10-31" },
+        { "code": "M2", "name": "跨县联合惠民展销", "due_date": "2026-12-31" }
+      ]
+    }
+  },
+  {
+    "event_id": "E038",
+    "event_type": "FUNDING_APPROVED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-YF-OVERSEAS",
+    "occurred_at": "2026-03-25T16:00:00+08:00",
+    "version": 1,
+    "summary": "批复云帆互娱欧洲发行项目，资助200万元",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "causation_id": "E027",
+    "payload": {
+      "application_id": "APP-YF-OVERSEAS",
+      "stream_id": "stream-overseas",
+      "goal_id": "goal-155-culture",
+      "period_id": "period-2026",
+      "lead_subject_id": "S-YF",
+      "co_subject_ids": [],
+      "approved_wan": 200,
+      "regions": ["510200", "510221"],
+      "milestone_schedule": [
+        { "code": "M1", "name": "欧洲平台上线落地", "due_date": "2026-12-31" }
+      ]
+    }
+  },
+  {
+    "event_id": "E039",
+    "event_type": "FUNDING_APPROVED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-TL-TECH",
+    "occurred_at": "2026-03-25T16:30:00+08:00",
+    "version": 1,
+    "summary": "批复同路光影沉浸装置项目，资助350万元",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "causation_id": "E028",
+    "payload": {
+      "application_id": "APP-TL-TECH",
+      "stream_id": "stream-tech",
+      "goal_id": "goal-155-culture",
+      "period_id": "period-2026",
+      "lead_subject_id": "S-TL",
+      "co_subject_ids": [],
+      "approved_wan": 350,
+      "regions": ["510100"],
+      "milestone_schedule": [
+        { "code": "M1", "name": "样机中试与第三方检测", "due_date": "2026-09-30" }
+      ]
+    }
+  },
+
+  {
+    "event_id": "E040",
+    "event_type": "CONTRACT_RECORDED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-XH-TECH",
+    "occurred_at": "2026-04-01T10:00:00+08:00",
+    "version": 1,
+    "summary": "星瀚数字项目合同备案，合同额500万元",
+    "payload": { "project_id": "PRJ-XH-TECH", "contract_no": "HT-KJ-2026-007", "total_wan": 500 }
+  },
+  {
+    "event_id": "E041",
+    "event_type": "CONTRACT_RECORDED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-QL-COUNTY",
+    "occurred_at": "2026-04-05T10:00:00+08:00",
+    "version": 1,
+    "summary": "青岚文旅项目合同备案，合同额240万元",
+    "payload": { "project_id": "PRJ-QL-COUNTY", "contract_no": "HT-XY-2026-013", "total_wan": 240 }
+  },
+  {
+    "event_id": "E042",
+    "event_type": "CONTRACT_RECORDED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-YS-TOUR",
+    "occurred_at": "2026-04-05T10:10:00+08:00",
+    "version": 1,
+    "summary": "远山文旅项目合同备案，合同额380万元",
+    "payload": { "project_id": "PRJ-YS-TOUR", "contract_no": "HT-WL-2026-021", "total_wan": 380 }
+  },
+  {
+    "event_id": "E043",
+    "event_type": "CONTRACT_RECORDED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-YF-OVERSEAS",
+    "occurred_at": "2026-04-08T10:00:00+08:00",
+    "version": 1,
+    "summary": "云帆互娱项目合同备案，合同额200万元",
+    "payload": { "project_id": "PRJ-YF-OVERSEAS", "contract_no": "HT-HW-2026-005", "total_wan": 200 }
+  },
+  {
+    "event_id": "E044",
+    "event_type": "CONTRACT_RECORDED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-TL-TECH",
+    "occurred_at": "2026-04-08T10:10:00+08:00",
+    "version": 1,
+    "summary": "同路光影项目合同备案，合同额350万元",
+    "payload": { "project_id": "PRJ-TL-TECH", "contract_no": "HT-KJ-2026-018", "total_wan": 350 }
+  },
+  {
+    "event_id": "E045",
+    "event_type": "PAYMENT_REQUESTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-TL-TECH",
+    "occurred_at": "2026-04-09T10:00:00+08:00",
+    "version": 2,
+    "summary": "同路光影申请预付款70万元",
+    "idempotency_key": "IDEMP-PAY-C-TL-PRE",
+    "payload": { "project_id": "PRJ-TL-TECH", "phase": "预付款", "amount_wan": 70, "evidence_ids": [] }
+  },
+  {
+    "event_id": "E046",
+    "event_type": "PAYMENT_EXECUTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-TL-TECH",
+    "occurred_at": "2026-04-15T10:00:00+08:00",
+    "version": 3,
+    "summary": "同路光影预付款70万元拨付到账",
+    "idempotency_key": "IDEMP-PAY-C-TL-PRE",
+    "payload": { "request_event_id": "E045", "amount_wan": 70 }
+  },
+
+  {
+    "event_id": "E047",
+    "event_type": "BUDGET_TRANSFER_REQUESTED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-XH-TECH",
+    "occurred_at": "2026-06-01T09:00:00+08:00",
+    "version": 2,
+    "summary": "星瀚数字申请预算调剂120万元（设备购置转算力采购）",
+    "actor_role": "APPLICANT",
+    "payload": { "amount_wan": 120, "from_budget": "设备购置", "to_budget": "算力服务" }
+  },
+  {
+    "event_id": "E048",
+    "event_type": "FUNDING_STREAM_RENAMED",
+    "aggregate_type": "funding_stream",
+    "aggregate_id": "stream-tour",
+    "occurred_at": "2026-06-01T14:00:00+08:00",
+    "version": 2,
+    "summary": "专项更名为“文旅融合协同专项”，原批复文号口径保留",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "new_name": "文旅融合协同专项" }
+  },
+  {
+    "event_id": "E049",
+    "event_type": "BUDGET_TRANSFER_DECIDED",
+    "aggregate_type": "decision_record",
+    "aggregate_id": "DEC-TRF-001",
+    "occurred_at": "2026-06-03T15:00:00+08:00",
+    "version": 1,
+    "summary": "规划处同意调剂120万元",
+    "actor_id": "U-PLAN-01",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "causation_id": "E047",
+    "payload": { "project_id": "PRJ-XH-TECH", "approved": true, "amount_wan": 120 }
+  },
+  {
+    "event_id": "E050",
+    "event_type": "BUDGET_TRANSFER_DECIDED",
+    "aggregate_type": "decision_record",
+    "aggregate_id": "DEC-TRF-002",
+    "occurred_at": "2026-06-04T15:00:00+08:00",
+    "version": 1,
+    "summary": "调剂超过批准额20%，财务处共同决定同意",
+    "actor_id": "U-FIN-01",
+    "actor_role": "PROVINCIAL_FINANCE_OFFICER",
+    "causation_id": "E047",
+    "payload": { "project_id": "PRJ-XH-TECH", "approved": true, "amount_wan": 120, "joint_with": "DEC-TRF-001" }
+  },
+
+  {
+    "event_id": "E051",
+    "event_type": "EVIDENCE_SUBMITTED",
+    "aggregate_type": "evidence_pack",
+    "aggregate_id": "EV-XH-M1",
+    "occurred_at": "2026-08-25T10:00:00+08:00",
+    "version": 1,
+    "summary": "星瀚数字上传M1成果材料：软著证书与试运营报告",
+    "payload": {
+      "project_id": "PRJ-XH-TECH",
+      "submitted_by_subject_id": "S-XINGHAN-DIGITAL",
+      "milestone_code": "M1",
+      "files": [
+        { "file": "软著证书-国字登字2026XH001.pdf", "fingerprint": "sha256:9f1c2a7e4b6d8a0f" },
+        { "file": "试运营核验报告.pdf", "fingerprint": "sha256:21a8e0d4c3b5f617" }
+      ],
+      "result_claims": [
+        { "metric_id": "M-TECH-01", "result_key": "软登字-2026-XH-001", "contribution_value": 1 }
+      ],
+      "benefit_regions": ["510121", "510122"],
+      "region_shares": [{ "region_code": "510121", "share": 0.5 }, { "region_code": "510122", "share": 0.5 }]
+    }
+  },
+  {
+    "event_id": "E052",
+    "event_type": "EVIDENCE_SUBMITTED",
+    "aggregate_type": "evidence_pack",
+    "aggregate_id": "EV-XH-M1-DUP",
+    "occurred_at": "2026-08-26T10:00:00+08:00",
+    "version": 1,
+    "summary": "企业重复上传同一软著证书（指纹一致）",
+    "payload": {
+      "project_id": "PRJ-XH-TECH",
+      "submitted_by_subject_id": "S-XINGHAN-DIGITAL",
+      "milestone_code": "M1",
+      "files": [
+        { "file": "软著证书-再传一遍.pdf", "fingerprint": "sha256:9f1c2a7e4b6d8a0f" }
+      ],
+      "result_claims": [],
+      "benefit_regions": ["510121", "510122"]
+    }
+  },
+  {
+    "event_id": "E053",
+    "event_type": "EVIDENCE_DEDUPLICATED",
+    "aggregate_type": "evidence_pack",
+    "aggregate_id": "EV-XH-M1-DUP",
+    "occurred_at": "2026-08-27T09:00:00+08:00",
+    "version": 2,
+    "summary": "重复材料识别：以EV-XH-M1为首包，重复件不得用于计绩或拨付",
+    "payload": { "fingerprint": "sha256:9f1c2a7e4b6d8a0f", "first_evidence_id": "EV-XH-M1" }
+  },
+  {
+    "event_id": "E054",
+    "event_type": "MILESTONE_VERIFIED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-XH-TECH",
+    "occurred_at": "2026-08-30T15:00:00+08:00",
+    "version": 3,
+    "summary": "核验通过：星瀚数字M1成果真实，按软著登记号计绩1项",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "milestone_code": "M1", "evidence_ids": ["EV-XH-M1"] }
+  },
+  {
+    "event_id": "E055",
+    "event_type": "PAYMENT_REQUESTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-XH-TECH",
+    "occurred_at": "2026-09-02T10:00:00+08:00",
+    "version": 2,
+    "summary": "星瀚数字申请M1阶段款200万元",
+    "idempotency_key": "IDEMP-PAY-C-XH-M1",
+    "payload": { "project_id": "PRJ-XH-TECH", "phase": "M1", "amount_wan": 200, "evidence_ids": ["EV-XH-M1"] }
+  },
+  {
+    "event_id": "E056",
+    "event_type": "PAYMENT_EXECUTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-XH-TECH",
+    "occurred_at": "2026-09-10T10:00:00+08:00",
+    "version": 3,
+    "summary": "星瀚数字M1阶段款200万元拨付到账",
+    "idempotency_key": "IDEMP-PAY-C-XH-M1",
+    "payload": { "request_event_id": "E055", "amount_wan": 200 }
+  },
+
+  {
+    "event_id": "E057",
+    "event_type": "EVIDENCE_SUBMITTED",
+    "aggregate_type": "evidence_pack",
+    "aggregate_id": "EV-QL-M1",
+    "occurred_at": "2026-09-20T10:00:00+08:00",
+    "version": 1,
+    "summary": "青岚文旅上传秋季消费季材料：票务核销与入场记录",
+    "payload": {
+      "project_id": "PRJ-QL-COUNTY",
+      "submitted_by_subject_id": "S-QL",
+      "milestone_code": "M1",
+      "files": [{ "file": "秋季消费季核销汇总.pdf", "fingerprint": "sha256:5a77bd9133cc0e28" }],
+      "result_claims": [
+        { "metric_id": "M-COUNTY-01", "result_key": "SESSION-QL-AUTUMN-2026", "contribution_value": 320 },
+        { "metric_id": "M-TOUR-01", "result_key": "SESSION-QL-AUTUMN-2026", "contribution_value": 80 }
+      ],
+      "benefit_regions": ["510221"]
+    }
+  },
+  {
+    "event_id": "E058",
+    "event_type": "MILESTONE_VERIFIED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-QL-COUNTY",
+    "occurred_at": "2026-09-25T15:00:00+08:00",
+    "version": 2,
+    "summary": "核验通过：青岚秋季消费季县域消费320万人次、带动接待80万人次",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "milestone_code": "M1", "evidence_ids": ["EV-QL-M1"] }
+  },
+  {
+    "event_id": "E059",
+    "event_type": "PAYMENT_REQUESTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-QL-COUNTY",
+    "occurred_at": "2026-09-26T10:00:00+08:00",
+    "version": 2,
+    "summary": "青岚文旅申请M1阶段款120万元",
+    "idempotency_key": "IDEMP-PAY-C-QL-M1",
+    "payload": { "project_id": "PRJ-QL-COUNTY", "phase": "M1", "amount_wan": 120, "evidence_ids": ["EV-QL-M1"] }
+  },
+  {
+    "event_id": "E060",
+    "event_type": "PAYMENT_EXECUTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-QL-COUNTY",
+    "occurred_at": "2026-10-02T10:00:00+08:00",
+    "version": 3,
+    "summary": "青岚文旅M1阶段款120万元拨付到账",
+    "idempotency_key": "IDEMP-PAY-C-QL-M1",
+    "payload": { "request_event_id": "E059", "amount_wan": 120 }
+  },
+
+  {
+    "event_id": "E061",
+    "event_type": "PAYMENT_REQUESTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-TL-TECH",
+    "occurred_at": "2026-10-07T10:00:00+08:00",
+    "version": 4,
+    "summary": "同路光影申请M1阶段款140万元",
+    "idempotency_key": "IDEMP-PAY-C-TL-M1",
+    "payload": { "project_id": "PRJ-TL-TECH", "phase": "M1", "amount_wan": 140, "evidence_ids": ["EV-TL-M1"] }
+  },
+  {
+    "event_id": "E062",
+    "event_type": "EVIDENCE_SUBMITTED",
+    "aggregate_type": "evidence_pack",
+    "aggregate_id": "EV-TL-M1",
+    "occurred_at": "2026-10-06T10:00:00+08:00",
+    "version": 1,
+    "summary": "同路光影迟交M1检测材料（里程碑9月30日到期，无延期批准）",
+    "payload": {
+      "project_id": "PRJ-TL-TECH",
+      "submitted_by_subject_id": "S-TL",
+      "milestone_code": "M1",
+      "files": [{ "file": "第三方检测报告-迟交.pdf", "fingerprint": "sha256:7c01e6f8a24d9b35" }],
+      "result_claims": [],
+      "benefit_regions": ["510100"]
+    }
+  },
+  {
+    "event_id": "E063",
+    "event_type": "PAYMENT_BLOCKED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-TL-TECH",
+    "occurred_at": "2026-10-08T10:00:00+08:00",
+    "version": 5,
+    "summary": "阻断拨付：M1证据迟报且无在先延期批准，不予支付",
+    "payload": { "request_event_id": "E061", "reason": "里程碑证据迟报且无在先延期批准" }
+  },
+
+  {
+    "event_id": "E064",
+    "event_type": "EVIDENCE_SUBMITTED",
+    "aggregate_type": "evidence_pack",
+    "aggregate_id": "EV-YS-M1",
+    "occurred_at": "2026-10-20T10:00:00+08:00",
+    "version": 1,
+    "summary": "远山文旅上传黄金周廊道运营材料",
+    "payload": {
+      "project_id": "PRJ-YS-TOUR",
+      "submitted_by_subject_id": "S-YS",
+      "milestone_code": "M1",
+      "files": [{ "file": "黄金周廊道接待核销.pdf", "fingerprint": "sha256:0d3f6c91a7b2e408" }],
+      "result_claims": [
+        { "metric_id": "M-TOUR-01", "result_key": "SESSION-YS-GOLDWEEK-2026", "contribution_value": 260 }
+      ],
+      "benefit_regions": ["510122", "510221"],
+      "region_shares": [{ "region_code": "510122", "share": 0.5 }, { "region_code": "510221", "share": 0.5 }]
+    }
+  },
+  {
+    "event_id": "E065",
+    "event_type": "MILESTONE_VERIFIED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-YS-TOUR",
+    "occurred_at": "2026-10-25T15:00:00+08:00",
+    "version": 2,
+    "summary": "核验通过：廊道黄金周带动接待260万人次",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "milestone_code": "M1", "evidence_ids": ["EV-YS-M1"] }
+  },
+  {
+    "event_id": "E066",
+    "event_type": "PAYMENT_REQUESTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-YS-TOUR",
+    "occurred_at": "2026-10-26T10:00:00+08:00",
+    "version": 2,
+    "summary": "远山文旅申请M1阶段款150万元",
+    "idempotency_key": "IDEMP-PAY-C-YS-M1",
+    "payload": { "project_id": "PRJ-YS-TOUR", "phase": "M1", "amount_wan": 150, "evidence_ids": ["EV-YS-M1"] }
+  },
+  {
+    "event_id": "E067",
+    "event_type": "PAYMENT_EXECUTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-YS-TOUR",
+    "occurred_at": "2026-11-03T10:00:00+08:00",
+    "version": 3,
+    "summary": "远山文旅M1阶段款150万元拨付到账",
+    "idempotency_key": "IDEMP-PAY-C-YS-M1",
+    "payload": { "request_event_id": "E066", "amount_wan": 150 }
+  },
+
+  {
+    "event_id": "E068",
+    "event_type": "PROJECT_TERMINATION_REQUESTED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-TL-TECH",
+    "occurred_at": "2026-11-01T09:00:00+08:00",
+    "version": 2,
+    "summary": "同路光影项目研发停滞，县级主管部门提请终止",
+    "actor_role": "COUNTY_OFFICER",
+    "payload": { "reason": "样机未达标且企业放弃整改" }
+  },
+  {
+    "event_id": "E069",
+    "event_type": "EVIDENCE_SUBMITTED",
+    "aggregate_type": "evidence_pack",
+    "aggregate_id": "EV-QL-FAIR",
+    "occurred_at": "2026-11-05T10:00:00+08:00",
+    "version": 1,
+    "summary": "青岚文旅上传跨县联合惠民展销材料（其主办部分）",
+    "payload": {
+      "project_id": "PRJ-QL-COUNTY",
+      "submitted_by_subject_id": "S-QL",
+      "milestone_code": "M2",
+      "files": [{ "file": "惠民展销-青岚核销.pdf", "fingerprint": "sha256:4b82e170ac5d93f6" }],
+      "result_claims": [
+        { "metric_id": "M-COUNTY-01", "result_key": "SESSION-JOINT-FAIR-2026", "contribution_value": 150 }
+      ],
+      "benefit_regions": ["510221"]
+    }
+  },
+  {
+    "event_id": "E070",
+    "event_type": "PROJECT_TERMINATION_DECIDED",
+    "aggregate_type": "decision_record",
+    "aggregate_id": "DEC-TERM-001",
+    "occurred_at": "2026-11-05T15:00:00+08:00",
+    "version": 1,
+    "summary": "决定终止同路光影项目，停止后续拨付",
+    "actor_id": "U-PLAN-01",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "causation_id": "E068",
+    "payload": { "project_id": "PRJ-TL-TECH", "approved": true, "reason": "研发停滞且放弃整改" }
+  },
+  {
+    "event_id": "E071",
+    "event_type": "EVIDENCE_SUBMITTED",
+    "aggregate_type": "evidence_pack",
+    "aggregate_id": "EV-YS-FAIR",
+    "occurred_at": "2026-11-08T10:00:00+08:00",
+    "version": 1,
+    "summary": "远山文旅上传同一场联合展销材料（承办部分）",
+    "payload": {
+      "project_id": "PRJ-YS-TOUR",
+      "submitted_by_subject_id": "S-YS",
+      "milestone_code": "M2",
+      "files": [{ "file": "惠民展销-远山核销.pdf", "fingerprint": "sha256:8e27f0b4d1c6a953" }],
+      "result_claims": [
+        { "metric_id": "M-COUNTY-01", "result_key": "SESSION-JOINT-FAIR-2026", "contribution_value": 150 }
+      ],
+      "benefit_regions": ["510221"]
+    }
+  },
+  {
+    "event_id": "E072",
+    "event_type": "FUNDS_RECOVERY_DECIDED",
+    "aggregate_type": "decision_record",
+    "aggregate_id": "DEC-REC-002",
+    "occurred_at": "2026-11-08T16:00:00+08:00",
+    "version": 1,
+    "summary": "决定追回同路光影预付款70万元",
+    "actor_id": "U-FIN-01",
+    "actor_role": "PROVINCIAL_FINANCE_OFFICER",
+    "causation_id": "E070",
+    "payload": { "project_id": "PRJ-TL-TECH", "amount_wan": 70, "reason": "项目终止，收回预付款" }
+  },
+  {
+    "event_id": "E073",
+    "event_type": "FUNDS_RECOVERED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-TL-TECH",
+    "occurred_at": "2026-11-20T10:00:00+08:00",
+    "version": 3,
+    "summary": "同路光影70万元预付款缴回入库",
+    "causation_id": "E072",
+    "payload": { "project_id": "PRJ-TL-TECH", "amount_wan": 70, "treasury_receipt": "川财缴2026-1188" }
+  },
+
+  {
+    "event_id": "E074",
+    "event_type": "MILESTONE_VERIFIED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-QL-COUNTY",
+    "occurred_at": "2026-12-20T15:00:00+08:00",
+    "version": 3,
+    "summary": "核验通过：青岚承办联合展销，县域消费150万人次",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "milestone_code": "M2", "evidence_ids": ["EV-QL-FAIR"] }
+  },
+  {
+    "event_id": "E075",
+    "event_type": "MILESTONE_VERIFIED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-YS-TOUR",
+    "occurred_at": "2026-12-20T15:10:00+08:00",
+    "version": 3,
+    "summary": "核验通过：远山承办同一场联合展销，县域消费150万人次（待成果去重）",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "milestone_code": "M2", "evidence_ids": ["EV-YS-FAIR"] }
+  },
+  {
+    "event_id": "E076",
+    "event_type": "OUTCOME_DEDUPLICATED",
+    "aggregate_type": "outcome_measure",
+    "aggregate_id": "M-COUNTY-01",
+    "occurred_at": "2026-12-22T10:00:00+08:00",
+    "version": 2,
+    "summary": "同一联合展销成果只计一次：保留首核验的青岚计绩，剔除远山重复计绩",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": {
+      "metric_id": "M-COUNTY-01",
+      "result_key": "SESSION-JOINT-FAIR-2026",
+      "kept": { "project_id": "PRJ-QL-COUNTY", "evidence_id": "EV-QL-FAIR" },
+      "dropped": [{ "project_id": "PRJ-YS-TOUR", "evidence_id": "EV-YS-FAIR" }]
+    }
+  },
+  {
+    "event_id": "E077",
+    "event_type": "PAYMENT_REQUESTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-QL-COUNTY",
+    "occurred_at": "2026-12-21T10:00:00+08:00",
+    "version": 4,
+    "summary": "青岚文旅申请M2阶段款100万元",
+    "idempotency_key": "IDEMP-PAY-C-QL-M2",
+    "payload": { "project_id": "PRJ-QL-COUNTY", "phase": "M2", "amount_wan": 100, "evidence_ids": ["EV-QL-FAIR"] }
+  },
+  {
+    "event_id": "E078",
+    "event_type": "PAYMENT_EXECUTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-QL-COUNTY",
+    "occurred_at": "2026-12-28T10:00:00+08:00",
+    "version": 5,
+    "summary": "青岚文旅M2阶段款100万元拨付到账",
+    "idempotency_key": "IDEMP-PAY-C-QL-M2",
+    "payload": { "request_event_id": "E077", "amount_wan": 100 }
+  },
+  {
+    "event_id": "E079",
+    "event_type": "PAYMENT_REQUESTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-YS-TOUR",
+    "occurred_at": "2026-12-21T11:00:00+08:00",
+    "version": 4,
+    "summary": "远山文旅申请M2阶段款150万元",
+    "idempotency_key": "IDEMP-PAY-C-YS-M2",
+    "payload": { "project_id": "PRJ-YS-TOUR", "phase": "M2", "amount_wan": 150, "evidence_ids": ["EV-YS-FAIR"] }
+  },
+  {
+    "event_id": "E080",
+    "event_type": "PAYMENT_EXECUTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-YS-TOUR",
+    "occurred_at": "2026-12-28T10:10:00+08:00",
+    "version": 5,
+    "summary": "远山文旅M2阶段款150万元拨付到账（成果去重不影响其合同履约款）",
+    "idempotency_key": "IDEMP-PAY-C-YS-M2",
+    "payload": { "request_event_id": "E079", "amount_wan": 150 }
+  },
+  {
+    "event_id": "E081",
+    "event_type": "EVIDENCE_SUBMITTED",
+    "aggregate_type": "evidence_pack",
+    "aggregate_id": "EV-YF-M1",
+    "occurred_at": "2026-12-24T10:00:00+08:00",
+    "version": 1,
+    "summary": "云帆互娱上传欧洲平台上线证明与发行备案",
+    "payload": {
+      "project_id": "PRJ-YF-OVERSEAS",
+      "submitted_by_subject_id": "S-YF",
+      "milestone_code": "M1",
+      "files": [{ "file": "欧洲平台上线与备案材料.pdf", "fingerprint": "sha256:b3d609f5e2a8c471" }],
+      "result_claims": [
+        { "metric_id": "M-OVERSEAS-01", "result_key": "REL-EU-2026-007", "contribution_value": 1 }
+      ],
+      "benefit_regions": ["510200", "510221"],
+      "region_shares": [{ "region_code": "510200", "share": 0.7 }, { "region_code": "510221", "share": 0.3 }]
+    }
+  },
+  {
+    "event_id": "E082",
+    "event_type": "MILESTONE_VERIFIED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-YF-OVERSEAS",
+    "occurred_at": "2026-12-26T15:00:00+08:00",
+    "version": 2,
+    "summary": "核验通过：国风互动剧欧洲落地1项",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "milestone_code": "M1", "evidence_ids": ["EV-YF-M1"] }
+  },
+  {
+    "event_id": "E083",
+    "event_type": "PAYMENT_REQUESTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-YF-OVERSEAS",
+    "occurred_at": "2026-12-27T10:00:00+08:00",
+    "version": 2,
+    "summary": "云帆互娱申请M1阶段款80万元",
+    "idempotency_key": "IDEMP-PAY-C-YF-M1",
+    "payload": { "project_id": "PRJ-YF-OVERSEAS", "phase": "M1", "amount_wan": 80, "evidence_ids": ["EV-YF-M1"] }
+  },
+  {
+    "event_id": "E084",
+    "event_type": "PAYMENT_EXECUTED",
+    "aggregate_type": "contract_payment",
+    "aggregate_id": "C-YF-OVERSEAS",
+    "occurred_at": "2027-01-08T10:00:00+08:00",
+    "version": 3,
+    "summary": "云帆互娱M1阶段款80万元拨付到账",
+    "idempotency_key": "IDEMP-PAY-C-YF-M1",
+    "payload": { "request_event_id": "E083", "amount_wan": 80 }
+  },
+
+  {
+    "event_id": "E085",
+    "event_type": "ASSESSMENT_PERIOD_OPENED",
+    "aggregate_type": "assessment_period",
+    "aggregate_id": "period-2027",
+    "occurred_at": "2027-01-10T09:00:00+08:00",
+    "version": 1,
+    "summary": "开放2027年度考核期",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "goal_id": "goal-155-culture", "year": 2027 }
+  },
+  {
+    "event_id": "E086",
+    "event_type": "TARGET_SET",
+    "aggregate_type": "policy_goal",
+    "aggregate_id": "goal-155-culture",
+    "occurred_at": "2027-01-12T09:00:00+08:00",
+    "version": 6,
+    "summary": "下达2027年度科技融合成果指标40项",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "period_id": "period-2027", "metric_id": "M-TECH-01", "target_value": 40 }
+  },
+  {
+    "event_id": "E087",
+    "event_type": "TARGET_SET",
+    "aggregate_type": "policy_goal",
+    "aggregate_id": "goal-155-culture",
+    "occurred_at": "2027-01-12T09:10:00+08:00",
+    "version": 7,
+    "summary": "下达2027年度县域文化消费900万人次指标",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "period_id": "period-2027", "metric_id": "M-COUNTY-01", "target_value": 900 }
+  },
+  {
+    "event_id": "E088",
+    "event_type": "TARGET_SET",
+    "aggregate_type": "policy_goal",
+    "aggregate_id": "goal-155-culture",
+    "occurred_at": "2027-01-12T09:20:00+08:00",
+    "version": 8,
+    "summary": "下达2027年度文旅协同接待600万人次指标",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "period_id": "period-2027", "metric_id": "M-TOUR-01", "target_value": 600 }
+  },
+  {
+    "event_id": "E089",
+    "event_type": "TARGET_SET",
+    "aggregate_type": "policy_goal",
+    "aggregate_id": "goal-155-culture",
+    "occurred_at": "2027-01-12T09:30:00+08:00",
+    "version": 9,
+    "summary": "下达2027年度海外发行落地25项指标",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "period_id": "period-2027", "metric_id": "M-OVERSEAS-01", "target_value": 25 }
+  },
+  {
+    "event_id": "E090",
+    "event_type": "ASSESSMENT_PERIOD_LOCKED",
+    "aggregate_type": "assessment_period",
+    "aggregate_id": "period-2026",
+    "occurred_at": "2027-02-01T09:00:00+08:00",
+    "version": 2,
+    "summary": "2026年度考核期锁定，此后目标口径不再变动",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": {}
+  },
+  {
+    "event_id": "E091",
+    "event_type": "MILESTONE_DELAY_REQUESTED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "PRJ-XH-TECH",
+    "occurred_at": "2027-02-01T10:00:00+08:00",
+    "version": 4,
+    "summary": "星瀚数字申请M2延期至2027年6月30日",
+    "actor_role": "APPLICANT",
+    "payload": { "milestone_code": "M2", "new_due_date": "2027-06-30", "reason": "县域场地改造延期" }
+  },
+  {
+    "event_id": "E092",
+    "event_type": "MILESTONE_DELAY_DECIDED",
+    "aggregate_type": "decision_record",
+    "aggregate_id": "DEC-DLY-001",
+    "occurred_at": "2027-02-03T15:00:00+08:00",
+    "version": 1,
+    "summary": "决定同意M2延期至2027年6月30日",
+    "actor_id": "U-PLAN-01",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "causation_id": "E091",
+    "payload": { "project_id": "PRJ-XH-TECH", "milestone_code": "M2", "approved": true, "new_due_date": "2027-06-30" }
+  },
+  {
+    "event_id": "E093",
+    "event_type": "POLICY_RENAMED",
+    "aggregate_type": "policy_goal",
+    "aggregate_id": "goal-155-culture",
+    "occurred_at": "2027-03-01T09:00:00+08:00",
+    "version": 10,
+    "summary": "政策更名为“文化强省‘十五五’建设目标”，原批复文号与口径保留",
+    "actor_id": "U-PLAN-01",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": { "new_name": "文化强省“十五五”建设目标" }
+  },
+  {
+    "event_id": "E094",
+    "event_type": "TARGET_ADJUSTED",
+    "aggregate_type": "policy_goal",
+    "aggregate_id": "goal-155-culture",
+    "occurred_at": "2027-03-05T09:00:00+08:00",
+    "version": 11,
+    "summary": "2027年度县域消费指标由900调整为950万人次（考核期尚未锁定）",
+    "actor_id": "U-PLAN-01",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "causation_id": "E087",
+    "payload": { "period_id": "period-2027", "metric_id": "M-COUNTY-01", "new_value": 950 }
+  },
+  {
+    "event_id": "E095",
+    "event_type": "ASSESSMENT_PERIOD_LOCKED",
+    "aggregate_type": "assessment_period",
+    "aggregate_id": "period-2027",
+    "occurred_at": "2027-11-30T09:00:00+08:00",
+    "version": 2,
+    "summary": "2027年度考核期锁定",
+    "actor_role": "PROVINCIAL_PLAN_OFFICER",
+    "payload": {}
+  }
+]
