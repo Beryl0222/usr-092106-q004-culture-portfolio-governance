@@ -1,0 +1,1523 @@
+[
+  {
+    "event_id": "evt-goal-defined",
+    "event_type": "PLAN_GOAL_DEFINED",
+    "aggregate_type": "policy_goal",
+    "aggregate_id": "goal-county-consume",
+    "occurred_at": "2026-09-01T01:01:00.000Z",
+    "version": 1,
+    "summary": "定义“县域居民文化消费规模”规划目标",
+    "payload": {
+      "goal_code": "G-COUNTY-CONSUME",
+      "goal_name": "县域居民文化消费规模",
+      "plan_term": "十五五",
+      "definition_snapshot": {
+        "metric_definition": "县域常住人口人均文化消费支出（元/人·年）",
+        "statistical_boundary": "县及县级市常住人口，城乡分类按统计口径 v2024",
+        "applicable_regions": [
+          "全省"
+        ],
+        "basis_doc_no": "省文旅规划〔2026〕12号"
+      }
+    }
+  },
+  {
+    "event_id": "evt-002",
+    "event_type": "FUNDING_PROGRAM_PUBLISHED",
+    "aggregate_type": "funding_program",
+    "aggregate_id": "PROG-TECH",
+    "occurred_at": "2026-09-01T01:02:00.000Z",
+    "version": 1,
+    "summary": "发布科技融合专项",
+    "payload": {
+      "program_code": "PROG-TECH",
+      "program_name": "科技融合专项",
+      "goal_codes": [
+        "G-COUNTY-CONSUME"
+      ],
+      "budget_cap": 50000000,
+      "support_scope": "文化科技融合应用",
+      "aid_type": "事后奖补",
+      "guideline_version": "2026.1"
+    }
+  },
+  {
+    "event_id": "evt-003",
+    "event_type": "FUNDING_PROGRAM_PUBLISHED",
+    "aggregate_type": "funding_program",
+    "aggregate_id": "PROG-COUNTY",
+    "occurred_at": "2026-09-01T01:03:00.000Z",
+    "version": 1,
+    "summary": "发布县域文化消费专项",
+    "payload": {
+      "program_code": "PROG-COUNTY",
+      "program_name": "县域文化消费专项",
+      "goal_codes": [
+        "G-COUNTY-CONSUME"
+      ],
+      "budget_cap": 50000000,
+      "support_scope": "县域文化消费场景",
+      "aid_type": "事后奖补",
+      "guideline_version": "2026.1"
+    }
+  },
+  {
+    "event_id": "evt-004",
+    "event_type": "FUNDING_PROGRAM_PUBLISHED",
+    "aggregate_type": "funding_program",
+    "aggregate_id": "PROG-TOUR",
+    "occurred_at": "2026-09-01T01:04:00.000Z",
+    "version": 1,
+    "summary": "发布文旅协同专项",
+    "payload": {
+      "program_code": "PROG-TOUR",
+      "program_name": "文旅协同专项",
+      "goal_codes": [
+        "G-COUNTY-CONSUME"
+      ],
+      "budget_cap": 50000000,
+      "support_scope": "文旅融合协同项目",
+      "aid_type": "事后奖补",
+      "guideline_version": "2026.1"
+    }
+  },
+  {
+    "event_id": "evt-005",
+    "event_type": "FUNDING_PROGRAM_PUBLISHED",
+    "aggregate_type": "funding_program",
+    "aggregate_id": "PROG-OVERSEAS",
+    "occurred_at": "2026-09-01T01:05:00.000Z",
+    "version": 1,
+    "summary": "发布海外发行专项",
+    "payload": {
+      "program_code": "PROG-OVERSEAS",
+      "program_name": "海外发行专项",
+      "goal_codes": [
+        "G-COUNTY-CONSUME"
+      ],
+      "budget_cap": 50000000,
+      "support_scope": "文化产品海外发行",
+      "aid_type": "事后奖补",
+      "guideline_version": "2026.1"
+    }
+  },
+  {
+    "event_id": "evt-006",
+    "event_type": "PLAN_GOAL_RENAMED",
+    "aggregate_type": "policy_goal",
+    "aggregate_id": "goal-county-consume",
+    "occurred_at": "2026-09-01T01:06:00.000Z",
+    "version": 2,
+    "summary": "目标随政策更名，原批复口径保留",
+    "causation_id": "evt-goal-defined",
+    "payload": {
+      "new_name": "县域和小城镇文化消费提升",
+      "former_name": "县域居民文化消费规模",
+      "rename_basis": "省文旅规划〔2026〕31号"
+    }
+  },
+  {
+    "event_id": "evt-007",
+    "event_type": "ASSESSMENT_PERIOD_OPENED",
+    "aggregate_type": "assessment_period",
+    "aggregate_id": "period-2026",
+    "occurred_at": "2026-09-01T01:07:00.000Z",
+    "version": 1,
+    "summary": "开启 2026 考核期",
+    "payload": {
+      "period_code": "2026",
+      "starts_on": "2026-01-01",
+      "ends_on": "2026-12-31",
+      "goal_codes": [
+        "G-COUNTY-CONSUME"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-008",
+    "event_type": "ASSESSMENT_PERIOD_OPENED",
+    "aggregate_type": "assessment_period",
+    "aggregate_id": "period-2027",
+    "occurred_at": "2026-09-01T01:08:00.000Z",
+    "version": 1,
+    "summary": "开启 2027 考核期",
+    "payload": {
+      "period_code": "2027",
+      "starts_on": "2027-01-01",
+      "ends_on": "2027-12-31",
+      "goal_codes": [
+        "G-COUNTY-CONSUME"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-009",
+    "event_type": "ANNUAL_TARGET_SET",
+    "aggregate_type": "annual_target",
+    "aggregate_id": "target-consume-2026",
+    "occurred_at": "2026-09-01T01:09:00.000Z",
+    "version": 1,
+    "summary": "设定 2026 年人均文化消费指标",
+    "payload": {
+      "goal_code": "G-COUNTY-CONSUME",
+      "period_code": "2026",
+      "metric_code": "m-per-capita-culture-spend",
+      "target_value": 1600,
+      "unit": "元/人·年",
+      "baseline_value": 1320
+    }
+  },
+  {
+    "event_id": "evt-010",
+    "event_type": "ANNUAL_TARGET_SET",
+    "aggregate_type": "annual_target",
+    "aggregate_id": "target-consume-2027",
+    "occurred_at": "2026-09-01T01:10:00.000Z",
+    "version": 1,
+    "summary": "设定 2027 年人均文化消费指标",
+    "payload": {
+      "goal_code": "G-COUNTY-CONSUME",
+      "period_code": "2027",
+      "metric_code": "m-per-capita-culture-spend",
+      "target_value": 1750,
+      "unit": "元/人·年",
+      "baseline_value": 1480
+    }
+  },
+  {
+    "event_id": "evt-011",
+    "event_type": "APPLICANT_REGISTERED",
+    "aggregate_type": "applicant",
+    "aggregate_id": "app-jiasheng",
+    "occurred_at": "2026-09-01T01:11:00.000Z",
+    "version": 1,
+    "summary": "登记嘉盛文化科技集团（母公司）",
+    "payload": {
+      "applicant_name": "嘉盛文化科技集团有限公司",
+      "credit_code": "91110000JS0000001X",
+      "applicant_type": "enterprise"
+    }
+  },
+  {
+    "event_id": "evt-012",
+    "event_type": "APPLICANT_REGISTERED",
+    "aggregate_type": "applicant",
+    "aggregate_id": "app-zishen",
+    "occurred_at": "2026-09-01T01:12:00.000Z",
+    "version": 1,
+    "summary": "登记紫申数字科技（全资子公司）",
+    "payload": {
+      "applicant_name": "紫申数字科技有限公司",
+      "credit_code": "91110000ZS0000002Y",
+      "applicant_type": "enterprise"
+    }
+  },
+  {
+    "event_id": "evt-013",
+    "event_type": "APPLICANT_REGISTERED",
+    "aggregate_type": "applicant",
+    "aggregate_id": "app-bing",
+    "occurred_at": "2026-09-01T01:13:00.000Z",
+    "version": 1,
+    "summary": "登记丙地文旅运营公司",
+    "payload": {
+      "applicant_name": "丙地文旅运营有限公司",
+      "credit_code": "91330000BF0000003Z",
+      "applicant_type": "enterprise"
+    }
+  },
+  {
+    "event_id": "evt-014",
+    "event_type": "APPLICANT_REGISTERED",
+    "aggregate_type": "applicant",
+    "aggregate_id": "app-ding",
+    "occurred_at": "2026-09-01T01:14:00.000Z",
+    "version": 1,
+    "summary": "登记丁县演艺机构（联合申报方）",
+    "payload": {
+      "applicant_name": "丁县惠民演艺有限公司",
+      "credit_code": "91330000DG0000004W",
+      "applicant_type": "enterprise"
+    }
+  },
+  {
+    "event_id": "evt-015",
+    "event_type": "CONTROL_RELATIONSHIP_RECORDED",
+    "aggregate_type": "applicant",
+    "aggregate_id": "rel-js-zs-01",
+    "occurred_at": "2026-09-01T01:15:00.000Z",
+    "version": 1,
+    "summary": "登记嘉盛对紫申的全资控制关系",
+    "payload": {
+      "parent_id": "app-jiasheng",
+      "child_id": "app-zishen",
+      "relation_type": "WHOLLY_OWNED_SUBSIDIARY",
+      "valid_from": "2023-06-01",
+      "evidence_ref": "股权登记信息"
+    }
+  },
+  {
+    "event_id": "evt-apl-001-received",
+    "event_type": "APPLICATION_RECEIVED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "apl-001",
+    "occurred_at": "2026-09-01T01:16:00.000Z",
+    "version": 1,
+    "summary": "紫申申报县域文化消费专项",
+    "correlation_id": "cor-apl-001",
+    "payload": {
+      "program_code": "PROG-COUNTY",
+      "applicant_id": "app-zishen",
+      "submitted_at": "2026-09-03T10:00:00+08:00",
+      "expenditure_items": [
+        {
+          "item_code": "EXP-DIGITAL-EXPO",
+          "description": "沉浸式数字展陈系统开发与部署",
+          "amount": 800000,
+          "currency": "CNY",
+          "expense_category": "数字内容开发",
+          "incurred_on": "2026-07-15"
+        }
+      ],
+      "benefit_regions": [
+        {
+          "region_code": "330122",
+          "region_type": "county",
+          "urban_rural": "rural",
+          "weak_area": true,
+          "share_pct": 100
+        }
+      ],
+      "declared_funding": [],
+      "content_fingerprint": "sha256:9f1a2b"
+    }
+  },
+  {
+    "event_id": "evt-017",
+    "event_type": "APPLICATION_RECEIVED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "apl-002",
+    "occurred_at": "2026-09-01T01:17:00.000Z",
+    "version": 1,
+    "summary": "嘉盛就同一支出申报科技融合专项（涉嫌拆单）",
+    "correlation_id": "cor-apl-002",
+    "payload": {
+      "program_code": "PROG-TECH",
+      "applicant_id": "app-jiasheng",
+      "submitted_at": "2026-09-04T11:20:00+08:00",
+      "expenditure_items": [
+        {
+          "item_code": "EXP-DIGITAL-EXPO",
+          "description": "沉浸式数字展陈系统研发",
+          "amount": 800000,
+          "currency": "CNY",
+          "expense_category": "数字内容开发",
+          "incurred_on": "2026-07-15"
+        }
+      ],
+      "benefit_regions": [
+        {
+          "region_code": "330100",
+          "region_type": "city",
+          "urban_rural": "urban",
+          "weak_area": false,
+          "share_pct": 100
+        }
+      ],
+      "declared_funding": [],
+      "content_fingerprint": "sha256:9f1a2b"
+    }
+  },
+  {
+    "event_id": "evt-018",
+    "event_type": "APPLICATION_DUPLICATE_FLAGGED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "apl-001",
+    "occurred_at": "2026-09-01T01:18:00.000Z",
+    "version": 2,
+    "summary": "控制闭包内命中跨专项同一支出：拆单嫌疑",
+    "payload": {
+      "matched_pairs": [
+        {
+          "item_a_ref": "apl-001/EXP-DIGITAL-EXPO",
+          "item_b_ref": "apl-002/EXP-DIGITAL-EXPO",
+          "similarity": 0.96,
+          "rule": "FINGERPRINT+EXPENSE_CATEGORY+TIME_WINDOW+CONTROL_CLOSURE"
+        }
+      ],
+      "across_programs": [
+        "PROG-COUNTY",
+        "PROG-TECH"
+      ],
+      "control_path": "app-zishen <-WHOLLY_OWNED- app-jiasheng"
+    }
+  },
+  {
+    "event_id": "evt-019",
+    "event_type": "REVIEWER_ASSIGNED",
+    "aggregate_type": "governance_decision",
+    "aggregate_id": "dec-assign-01",
+    "occurred_at": "2026-09-01T01:19:00.000Z",
+    "version": 1,
+    "summary": "指派张某评审 apl-001",
+    "payload": {
+      "application_id": "apl-001",
+      "reviewer_id": "rev-zhang",
+      "reviewer_org": "某数字文化研究院"
+    }
+  },
+  {
+    "event_id": "evt-020",
+    "event_type": "CONFLICT_DECLARED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "apl-001",
+    "occurred_at": "2026-09-01T01:20:00.000Z",
+    "version": 3,
+    "summary": "张某披露持有嘉盛股份，回避",
+    "payload": {
+      "reviewer_id": "rev-zhang",
+      "conflict_type": "EQUITY_HOLDING",
+      "relation_detail": "评审人持有申报方关联母公司嘉盛 3% 股份",
+      "recusal_result": "RECUSED"
+    }
+  },
+  {
+    "event_id": "evt-021",
+    "event_type": "REVIEWER_ASSIGNED",
+    "aggregate_type": "governance_decision",
+    "aggregate_id": "dec-assign-02",
+    "occurred_at": "2026-09-01T01:21:00.000Z",
+    "version": 1,
+    "summary": "改派李某评审 apl-001",
+    "payload": {
+      "application_id": "apl-001",
+      "reviewer_id": "rev-li",
+      "reviewer_org": "省社科院文化产业研究中心"
+    }
+  },
+  {
+    "event_id": "evt-dec-dup-01",
+    "event_type": "REVIEW_DECISION_RECORDED",
+    "aggregate_type": "governance_decision",
+    "aggregate_id": "dec-dup-01",
+    "occurred_at": "2026-09-01T01:22:00.000Z",
+    "version": 1,
+    "summary": "委员会认定同一支出不得跨专项重复补助",
+    "payload": {
+      "decision_type": "DUPLICATE_FUNDING_RULING",
+      "result": "APPROVED",
+      "subject_id": "apl-001",
+      "application_ids": [
+        "apl-001",
+        "apl-002"
+      ],
+      "ruling": "CONFIRMED_DUPLICATE",
+      "requirement": "同一数字展陈支出只能在一个专项申报，撤回 apl-002",
+      "actor_id": "rev-committee-2026-3",
+      "actor_role": "REVIEW_COMMITTEE",
+      "basis_docs": [
+        "查重比对报告",
+        "股权穿透核查表"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-023",
+    "event_type": "APPLICATION_WITHDRAWN",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "apl-002",
+    "occurred_at": "2026-09-01T01:23:00.000Z",
+    "version": 2,
+    "summary": "嘉盛撤回科技融合专项申报",
+    "causation_id": "evt-dec-dup-01",
+    "payload": {
+      "reason": "执行重复出资认定决定，同一支出择一申报"
+    }
+  },
+  {
+    "event_id": "evt-dec-review-01",
+    "event_type": "REVIEW_DECISION_RECORDED",
+    "aggregate_type": "governance_decision",
+    "aggregate_id": "dec-review-01",
+    "occurred_at": "2026-09-01T01:24:00.000Z",
+    "version": 1,
+    "summary": "委员会审查通过 apl-001",
+    "payload": {
+      "decision_type": "FUNDING_REVIEW",
+      "result": "APPROVED",
+      "subject_id": "apl-001",
+      "actor_id": "rev-committee-2026-3",
+      "actor_role": "REVIEW_COMMITTEE",
+      "committee": [
+        "rev-li"
+      ],
+      "basis_docs": [
+        "评审意见表",
+        "查重认定整改确认"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-025",
+    "event_type": "FUNDING_APPROVED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "apl-001",
+    "occurred_at": "2026-09-01T01:25:00.000Z",
+    "version": 4,
+    "summary": "apl-001 立项，补助 80 万元",
+    "causation_id": "evt-dec-review-01",
+    "payload": {
+      "approved_amount": 800000,
+      "currency": "CNY",
+      "budget_sources": [
+        {
+          "program_code": "PROG-COUNTY",
+          "fund_level": "PROVINCIAL",
+          "amount": 600000
+        },
+        {
+          "program_code": "PROG-COUNTY",
+          "fund_level": "COUNTY",
+          "amount": 200000
+        }
+      ],
+      "award_doc_no": "县文产〔2026〕88号"
+    }
+  },
+  {
+    "event_id": "evt-prj-001-established",
+    "event_type": "PROJECT_ESTABLISHED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "prj-001",
+    "occurred_at": "2026-09-01T01:26:00.000Z",
+    "version": 1,
+    "summary": "建立在库项目：紫申数字展陈",
+    "payload": {
+      "application_id": "apl-001",
+      "program_code": "PROG-COUNTY",
+      "lead_applicant_id": "app-zishen",
+      "goal_codes": [
+        "G-COUNTY-CONSUME"
+      ],
+      "total_budget": 800000,
+      "region_scope": [
+        {
+          "region_code": "330122",
+          "urban_rural": "rural",
+          "share_pct": 100
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-027",
+    "event_type": "BUDGET_SOURCE_SECURED",
+    "aggregate_type": "budget_allocation",
+    "aggregate_id": "bud-001",
+    "occurred_at": "2026-09-01T01:27:00.000Z",
+    "version": 1,
+    "summary": "落实省级补助 60 万元",
+    "payload": {
+      "project_id": "prj-001",
+      "program_code": "PROG-COUNTY",
+      "fund_level": "PROVINCIAL",
+      "fund_type": "事后奖补",
+      "amount": 600000,
+      "currency": "CNY",
+      "fiscal_year": 2026,
+      "doc_ref": "财教〔2026〕55号"
+    }
+  },
+  {
+    "event_id": "evt-028",
+    "event_type": "BUDGET_SOURCE_SECURED",
+    "aggregate_type": "budget_allocation",
+    "aggregate_id": "bud-002",
+    "occurred_at": "2026-09-01T01:28:00.000Z",
+    "version": 1,
+    "summary": "落实县级配套 20 万元",
+    "payload": {
+      "project_id": "prj-001",
+      "program_code": "PROG-COUNTY",
+      "fund_level": "COUNTY",
+      "fund_type": "配套",
+      "amount": 200000,
+      "currency": "CNY",
+      "fiscal_year": 2026,
+      "doc_ref": "县财〔2026〕19号"
+    }
+  },
+  {
+    "event_id": "evt-029",
+    "event_type": "CONTRACT_SIGNED",
+    "aggregate_type": "contract",
+    "aggregate_id": "ctr-001",
+    "occurred_at": "2026-09-01T01:29:00.000Z",
+    "version": 1,
+    "summary": "签订项目合同 80 万元",
+    "payload": {
+      "project_id": "prj-001",
+      "contract_no": "CTR-2026-001",
+      "amount": 800000,
+      "currency": "CNY",
+      "payee_account": "紫申数字 基本户 0002",
+      "signed_at": "2026-09-20",
+      "payment_terms": [
+        {
+          "milestone_code": "ms-1",
+          "pct": 40
+        },
+        {
+          "milestone_code": "ms-2",
+          "pct": 60
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-030",
+    "event_type": "MILESTONE_PLANNED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "prj-001",
+    "occurred_at": "2026-09-01T01:30:00.000Z",
+    "version": 2,
+    "summary": "登记两期里程碑计划",
+    "payload": {
+      "milestones": [
+        {
+          "code": "ms-1",
+          "name": "展陈系统上线",
+          "due_date": "2026-11-30",
+          "deliverables": [
+            "系统验收报告"
+          ],
+          "pay_pct": 40,
+          "metric_links": [
+            "m-per-capita-culture-spend"
+          ]
+        },
+        {
+          "code": "ms-2",
+          "name": "县域场景运营满 3 个月",
+          "due_date": "2027-03-31",
+          "deliverables": [
+            "运营数据与凭证"
+          ],
+          "pay_pct": 60,
+          "metric_links": [
+            "m-per-capita-culture-spend"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-031",
+    "event_type": "EVIDENCE_SUBMITTED",
+    "aggregate_type": "evidence",
+    "aggregate_id": "evd-001",
+    "occurred_at": "2026-09-01T01:31:00.000Z",
+    "version": 1,
+    "summary": "紫盛提交系统验收与发票",
+    "payload": {
+      "project_id": "prj-001",
+      "milestone_code": "ms-1",
+      "evidence_type": "ACCEPTANCE_REPORT_AND_INVOICE",
+      "content_hash": "sha256:abc111",
+      "canonical_key": "INV-2026-0001",
+      "submitted_by": "app-zishen",
+      "submitted_at": "2026-11-25T10:00:00+08:00"
+    }
+  },
+  {
+    "event_id": "evt-032",
+    "event_type": "EVIDENCE_ACCEPTED",
+    "aggregate_type": "evidence",
+    "aggregate_id": "evd-001",
+    "occurred_at": "2026-09-01T01:32:00.000Z",
+    "version": 2,
+    "summary": "核验通过：验收与发票真实有效",
+    "payload": {
+      "reviewer_id": "staff-qian",
+      "accepted_at": "2026-11-28T15:00:00+08:00",
+      "canonical_outcome_id": "oc-expo-system"
+    }
+  },
+  {
+    "event_id": "evt-033",
+    "event_type": "MILESTONE_VERIFIED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "prj-001",
+    "occurred_at": "2026-09-01T01:33:00.000Z",
+    "version": 3,
+    "summary": "第一期里程碑核验通过",
+    "payload": {
+      "milestone_code": "ms-1",
+      "verified_at": "2026-11-29T10:00:00+08:00",
+      "evidence_ids": [
+        "evd-001"
+      ],
+      "verifier_id": "staff-qian"
+    }
+  },
+  {
+    "event_id": "evt-034",
+    "event_type": "PAYMENT_REQUESTED",
+    "aggregate_type": "payment",
+    "aggregate_id": "pay-001",
+    "occurred_at": "2026-09-01T01:34:00.000Z",
+    "version": 1,
+    "summary": "申请第一期款 32 万元",
+    "payload": {
+      "contract_no": "CTR-2026-001",
+      "milestone_code": "ms-1",
+      "amount": 320000,
+      "currency": "CNY",
+      "payee_account": "紫申数字 基本户 0002",
+      "request_no": "REQ-001",
+      "evidence_ids": [
+        "evd-001"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-pay-001-released",
+    "event_type": "PAYMENT_RELEASED",
+    "aggregate_type": "payment",
+    "aggregate_id": "pay-001",
+    "occurred_at": "2026-09-01T01:35:00.000Z",
+    "version": 2,
+    "summary": "第一期款出账 32 万元",
+    "payload": {
+      "contract_no": "CTR-2026-001",
+      "milestone_code": "ms-1",
+      "amount": 320000,
+      "currency": "CNY",
+      "payee_account": "紫申数字 基本户 0002",
+      "released_at": "2026-12-02T10:00:00+08:00",
+      "evidence_ids": [
+        "evd-001"
+      ],
+      "idempotency_key": "pay:CTR-2026-001:ms-1:320000:0002"
+    }
+  },
+  {
+    "event_id": "evt-036",
+    "event_type": "EVIDENCE_SUBMITTED",
+    "aggregate_type": "evidence",
+    "aggregate_id": "evd-002",
+    "occurred_at": "2026-09-01T01:36:00.000Z",
+    "version": 1,
+    "summary": "企业次年补传同一发票（迟报、内容相同）",
+    "payload": {
+      "project_id": "prj-001",
+      "milestone_code": "ms-1",
+      "evidence_type": "INVOICE",
+      "content_hash": "sha256:abc111",
+      "canonical_key": "INV-2026-0001",
+      "submitted_by": "app-zishen",
+      "submitted_at": "2027-01-12T09:00:00+08:00",
+      "late": true
+    }
+  },
+  {
+    "event_id": "evt-037",
+    "event_type": "EVIDENCE_DUPLICATE_MATCHED",
+    "aggregate_type": "evidence",
+    "aggregate_id": "evd-002",
+    "occurred_at": "2026-09-01T01:37:00.000Z",
+    "version": 2,
+    "summary": "内容指纹与业务键均命中 evd-001",
+    "payload": {
+      "new_evidence_id": "evd-002",
+      "existing_evidence_id": "evd-001",
+      "match_type": "HASH",
+      "score": 1,
+      "across_scope": "same-project-resubmission"
+    }
+  },
+  {
+    "event_id": "evt-038",
+    "event_type": "EVIDENCE_REJECTED",
+    "aggregate_type": "evidence",
+    "aggregate_id": "evd-002",
+    "occurred_at": "2026-09-01T01:38:00.000Z",
+    "version": 3,
+    "summary": "重复票据不予采信",
+    "payload": {
+      "reviewer_id": "staff-qian",
+      "reason": "DUPLICATE_EVIDENCE_LATE_RESUBMISSION"
+    }
+  },
+  {
+    "event_id": "evt-039",
+    "event_type": "PAYMENT_REQUESTED",
+    "aggregate_type": "payment",
+    "aggregate_id": "pay-002",
+    "occurred_at": "2026-09-01T01:39:00.000Z",
+    "version": 1,
+    "summary": "企业凭补传发票再次申请第一期款",
+    "payload": {
+      "contract_no": "CTR-2026-001",
+      "milestone_code": "ms-1",
+      "amount": 320000,
+      "currency": "CNY",
+      "payee_account": "紫申数字 基本户 0002",
+      "request_no": "REQ-002-DUP",
+      "evidence_ids": [
+        "evd-002"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-040",
+    "event_type": "PAYMENT_BLOCKED",
+    "aggregate_type": "payment",
+    "aggregate_id": "pay-002",
+    "occurred_at": "2026-09-01T01:40:00.000Z",
+    "version": 2,
+    "summary": "重复拨付被阻断（同一幂等键）",
+    "payload": {
+      "request_no": "REQ-002-DUP",
+      "reason": "DUPLICATE_KEY",
+      "idempotency_key": "pay:CTR-2026-001:ms-1:320000:0002",
+      "payee_account": "紫申数字 基本户 0002"
+    }
+  },
+  {
+    "event_id": "evt-041",
+    "event_type": "MILESTONE_DELAY_REQUESTED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "prj-001",
+    "occurred_at": "2026-09-01T01:41:00.000Z",
+    "version": 4,
+    "summary": "申请第二期延期至 4 月底",
+    "payload": {
+      "milestone_code": "ms-2",
+      "requested_due_date": "2027-04-30",
+      "reason": "县域场地改造延后",
+      "evidence_ids": []
+    }
+  },
+  {
+    "event_id": "evt-dec-delay-01",
+    "event_type": "REVIEW_DECISION_RECORDED",
+    "aggregate_type": "governance_decision",
+    "aggregate_id": "dec-delay-01",
+    "occurred_at": "2026-09-01T01:42:00.000Z",
+    "version": 1,
+    "summary": "专项机构批准延期",
+    "payload": {
+      "decision_type": "MILESTONE_DELAY",
+      "result": "APPROVED",
+      "subject_id": "prj-001",
+      "actor_id": "staff-program-office",
+      "actor_role": "PROGRAM_OFFICE",
+      "basis_docs": [
+        "延期申请单"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-043",
+    "event_type": "MILESTONE_DELAY_APPROVED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "prj-001",
+    "occurred_at": "2026-09-01T01:43:00.000Z",
+    "version": 5,
+    "summary": "第二期延期获批，新日期 2027-04-30",
+    "causation_id": "evt-dec-delay-01",
+    "payload": {
+      "milestone_code": "ms-2",
+      "new_due_date": "2027-04-30"
+    }
+  },
+  {
+    "event_id": "evt-044",
+    "event_type": "EVIDENCE_SUBMITTED",
+    "aggregate_type": "evidence",
+    "aggregate_id": "evd-003",
+    "occurred_at": "2026-09-01T01:44:00.000Z",
+    "version": 1,
+    "summary": "提交三个月运营数据与凭证",
+    "payload": {
+      "project_id": "prj-001",
+      "milestone_code": "ms-2",
+      "evidence_type": "OPERATION_DATA",
+      "content_hash": "sha256:def222",
+      "canonical_key": "OPS-prj-001-ms2",
+      "submitted_by": "app-zishen",
+      "submitted_at": "2027-04-25T10:00:00+08:00"
+    }
+  },
+  {
+    "event_id": "evt-045",
+    "event_type": "EVIDENCE_ACCEPTED",
+    "aggregate_type": "evidence",
+    "aggregate_id": "evd-003",
+    "occurred_at": "2026-09-01T01:45:00.000Z",
+    "version": 2,
+    "summary": "运营证据核验通过",
+    "payload": {
+      "reviewer_id": "staff-qian",
+      "accepted_at": "2027-04-27T10:00:00+08:00",
+      "canonical_outcome_id": "oc-expo-operations"
+    }
+  },
+  {
+    "event_id": "evt-046",
+    "event_type": "MILESTONE_VERIFIED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "prj-001",
+    "occurred_at": "2026-09-01T01:46:00.000Z",
+    "version": 6,
+    "summary": "第二期里程碑核验通过",
+    "payload": {
+      "milestone_code": "ms-2",
+      "verified_at": "2027-04-28T10:00:00+08:00",
+      "evidence_ids": [
+        "evd-003"
+      ],
+      "verifier_id": "staff-qian"
+    }
+  },
+  {
+    "event_id": "evt-047",
+    "event_type": "PAYMENT_REQUESTED",
+    "aggregate_type": "payment",
+    "aggregate_id": "pay-003",
+    "occurred_at": "2026-09-01T01:47:00.000Z",
+    "version": 1,
+    "summary": "申请第二期款 48 万元",
+    "payload": {
+      "contract_no": "CTR-2026-001",
+      "milestone_code": "ms-2",
+      "amount": 480000,
+      "currency": "CNY",
+      "payee_account": "紫申数字 基本户 0002",
+      "request_no": "REQ-003",
+      "evidence_ids": [
+        "evd-003"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-048",
+    "event_type": "PAYMENT_RELEASED",
+    "aggregate_type": "payment",
+    "aggregate_id": "pay-003",
+    "occurred_at": "2026-09-01T01:48:00.000Z",
+    "version": 2,
+    "summary": "第二期款出账 48 万元",
+    "payload": {
+      "contract_no": "CTR-2026-001",
+      "milestone_code": "ms-2",
+      "amount": 480000,
+      "currency": "CNY",
+      "payee_account": "紫申数字 基本户 0002",
+      "released_at": "2027-04-30T10:00:00+08:00",
+      "evidence_ids": [
+        "evd-003"
+      ],
+      "idempotency_key": "pay:CTR-2026-001:ms-2:480000:0002"
+    }
+  },
+  {
+    "event_id": "evt-049",
+    "event_type": "APPLICATION_RECEIVED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "apl-003",
+    "occurred_at": "2026-09-01T01:49:00.000Z",
+    "version": 1,
+    "summary": "丙地文旅申报文旅协同专项",
+    "correlation_id": "cor-apl-003",
+    "payload": {
+      "program_code": "PROG-TOUR",
+      "applicant_id": "app-bing",
+      "submitted_at": "2026-09-08T10:00:00+08:00",
+      "expenditure_items": [
+        {
+          "item_code": "TOUR-FAIR",
+          "description": "县域文旅集市运营",
+          "amount": 500000,
+          "currency": "CNY",
+          "expense_category": "活动运营",
+          "incurred_on": "2026-08-20"
+        }
+      ],
+      "benefit_regions": [
+        {
+          "region_code": "330123",
+          "region_type": "county",
+          "urban_rural": "rural",
+          "weak_area": true,
+          "share_pct": 100
+        }
+      ],
+      "declared_funding": [],
+      "content_fingerprint": "sha256:77ccdd"
+    }
+  },
+  {
+    "event_id": "evt-050",
+    "event_type": "JOINT_APPLICATION_LINKED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "apl-003",
+    "occurred_at": "2026-09-01T01:50:00.000Z",
+    "version": 2,
+    "summary": "联合丁县演艺，份额 70/30",
+    "payload": {
+      "lead_applicant_id": "app-bing",
+      "members": [
+        {
+          "applicant_id": "app-bing",
+          "role": "LEAD",
+          "share_pct": 70,
+          "account_ref": "丙地 基本户 0007"
+        },
+        {
+          "applicant_id": "app-ding",
+          "role": "MEMBER",
+          "share_pct": 30,
+          "account_ref": "丁县 基本户 0004"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-dec-review-02",
+    "event_type": "REVIEW_DECISION_RECORDED",
+    "aggregate_type": "governance_decision",
+    "aggregate_id": "dec-review-02",
+    "occurred_at": "2026-09-01T01:51:00.000Z",
+    "version": 1,
+    "summary": "委员会通过 apl-003",
+    "payload": {
+      "decision_type": "FUNDING_REVIEW",
+      "result": "APPROVED",
+      "subject_id": "apl-003",
+      "actor_id": "rev-committee-2026-3",
+      "actor_role": "REVIEW_COMMITTEE",
+      "committee": [
+        "rev-li"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-052",
+    "event_type": "FUNDING_APPROVED",
+    "aggregate_type": "funding_application",
+    "aggregate_id": "apl-003",
+    "occurred_at": "2026-09-01T01:52:00.000Z",
+    "version": 3,
+    "summary": "apl-003 立项 50 万元",
+    "causation_id": "evt-dec-review-02",
+    "payload": {
+      "approved_amount": 500000,
+      "currency": "CNY",
+      "budget_sources": [
+        {
+          "program_code": "PROG-TOUR",
+          "fund_level": "PROVINCIAL",
+          "amount": 500000
+        }
+      ],
+      "award_doc_no": "文旅协〔2026〕210号"
+    }
+  },
+  {
+    "event_id": "evt-053",
+    "event_type": "PROJECT_ESTABLISHED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "prj-002",
+    "occurred_at": "2026-09-01T01:53:00.000Z",
+    "version": 1,
+    "summary": "建立在库项目：县域文旅集市",
+    "payload": {
+      "application_id": "apl-003",
+      "program_code": "PROG-TOUR",
+      "lead_applicant_id": "app-bing",
+      "goal_codes": [
+        "G-COUNTY-CONSUME"
+      ],
+      "total_budget": 500000,
+      "region_scope": [
+        {
+          "region_code": "330123",
+          "urban_rural": "rural",
+          "share_pct": 100
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-054",
+    "event_type": "BUDGET_SOURCE_SECURED",
+    "aggregate_type": "budget_allocation",
+    "aggregate_id": "bud-003",
+    "occurred_at": "2026-09-01T01:54:00.000Z",
+    "version": 1,
+    "summary": "落实省级补助 50 万元",
+    "payload": {
+      "project_id": "prj-002",
+      "program_code": "PROG-TOUR",
+      "fund_level": "PROVINCIAL",
+      "fund_type": "事后奖补",
+      "amount": 500000,
+      "currency": "CNY",
+      "fiscal_year": 2026,
+      "doc_ref": "财教〔2026〕60号"
+    }
+  },
+  {
+    "event_id": "evt-055",
+    "event_type": "CONTRACT_SIGNED",
+    "aggregate_type": "contract",
+    "aggregate_id": "ctr-002",
+    "occurred_at": "2026-09-01T01:55:00.000Z",
+    "version": 1,
+    "summary": "签订合同 50 万元",
+    "payload": {
+      "project_id": "prj-002",
+      "contract_no": "CTR-2026-002",
+      "amount": 500000,
+      "currency": "CNY",
+      "payee_account": "丙地 基本户 0007",
+      "signed_at": "2026-09-25",
+      "payment_terms": [
+        {
+          "milestone_code": "ms-1",
+          "pct": 40
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-056",
+    "event_type": "MILESTONE_PLANNED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "prj-002",
+    "occurred_at": "2026-09-01T01:56:00.000Z",
+    "version": 2,
+    "summary": "登记一期里程碑",
+    "payload": {
+      "milestones": [
+        {
+          "code": "ms-1",
+          "name": "集市首场运营",
+          "due_date": "2026-12-31",
+          "deliverables": [
+            "活动结算与参与数据"
+          ],
+          "pay_pct": 40,
+          "metric_links": [
+            "m-per-capita-culture-spend"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-057",
+    "event_type": "EVIDENCE_SUBMITTED",
+    "aggregate_type": "evidence",
+    "aggregate_id": "evd-004",
+    "occurred_at": "2026-09-01T01:57:00.000Z",
+    "version": 1,
+    "summary": "提交集市运营证据",
+    "payload": {
+      "project_id": "prj-002",
+      "milestone_code": "ms-1",
+      "evidence_type": "EVENT_OPERATION",
+      "content_hash": "sha256:444eee",
+      "canonical_key": "FAIR-prj-002-ms1",
+      "submitted_by": "app-bing",
+      "submitted_at": "2026-12-20T10:00:00+08:00"
+    }
+  },
+  {
+    "event_id": "evt-058",
+    "event_type": "EVIDENCE_ACCEPTED",
+    "aggregate_type": "evidence",
+    "aggregate_id": "evd-004",
+    "occurred_at": "2026-09-01T01:58:00.000Z",
+    "version": 2,
+    "summary": "集市运营证据采信",
+    "payload": {
+      "reviewer_id": "staff-sun",
+      "accepted_at": "2026-12-26T10:00:00+08:00",
+      "canonical_outcome_id": "oc-tour-fair"
+    }
+  },
+  {
+    "event_id": "evt-059",
+    "event_type": "MILESTONE_VERIFIED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "prj-002",
+    "occurred_at": "2026-09-01T01:59:00.000Z",
+    "version": 3,
+    "summary": "一期里程碑核验通过",
+    "payload": {
+      "milestone_code": "ms-1",
+      "verified_at": "2026-12-28T10:00:00+08:00",
+      "evidence_ids": [
+        "evd-004"
+      ],
+      "verifier_id": "staff-sun"
+    }
+  },
+  {
+    "event_id": "evt-060",
+    "event_type": "PAYMENT_REQUESTED",
+    "aggregate_type": "payment",
+    "aggregate_id": "pay-004",
+    "occurred_at": "2026-09-01T02:00:00.000Z",
+    "version": 1,
+    "summary": "申请第一期款 20 万元",
+    "payload": {
+      "contract_no": "CTR-2026-002",
+      "milestone_code": "ms-1",
+      "amount": 200000,
+      "currency": "CNY",
+      "payee_account": "丙地 基本户 0007",
+      "request_no": "REQ-004",
+      "evidence_ids": [
+        "evd-004"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-061",
+    "event_type": "PAYMENT_RELEASED",
+    "aggregate_type": "payment",
+    "aggregate_id": "pay-004",
+    "occurred_at": "2026-09-01T02:01:00.000Z",
+    "version": 2,
+    "summary": "第一期款出账 20 万元",
+    "payload": {
+      "contract_no": "CTR-2026-002",
+      "milestone_code": "ms-1",
+      "amount": 200000,
+      "currency": "CNY",
+      "payee_account": "丙地 基本户 0007",
+      "released_at": "2026-12-30T10:00:00+08:00",
+      "evidence_ids": [
+        "evd-004"
+      ],
+      "idempotency_key": "pay:CTR-2026-002:ms-1:200000:0007"
+    }
+  },
+  {
+    "event_id": "evt-out-001",
+    "event_type": "OUTCOME_CONTRIBUTION_RECORDED",
+    "aggregate_type": "outcome_measure",
+    "aggregate_id": "out-001",
+    "occurred_at": "2026-09-01T02:02:00.000Z",
+    "version": 1,
+    "summary": "数字展陈计入 2026 人均消费指标",
+    "payload": {
+      "project_id": "prj-001",
+      "goal_code": "G-COUNTY-CONSUME",
+      "period_code": "2026",
+      "metric_code": "m-per-capita-culture-spend",
+      "canonical_outcome_id": "oc-expo-system",
+      "value": 18,
+      "unit": "元/人·年",
+      "evidence_ids": [
+        "evd-001"
+      ],
+      "region_allocation": [
+        {
+          "region_code": "330122",
+          "urban_rural": "rural",
+          "share_pct": 100
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-out-002",
+    "event_type": "OUTCOME_CONTRIBUTION_RECORDED",
+    "aggregate_type": "outcome_measure",
+    "aggregate_id": "out-002",
+    "occurred_at": "2026-09-01T02:03:00.000Z",
+    "version": 1,
+    "summary": "文旅集市计入同一指标（不同成果，合法）",
+    "payload": {
+      "project_id": "prj-002",
+      "goal_code": "G-COUNTY-CONSUME",
+      "period_code": "2026",
+      "metric_code": "m-per-capita-culture-spend",
+      "canonical_outcome_id": "oc-tour-fair",
+      "value": 12,
+      "unit": "元/人·年",
+      "evidence_ids": [
+        "evd-004"
+      ],
+      "region_allocation": [
+        {
+          "region_code": "330123",
+          "urban_rural": "rural",
+          "share_pct": 100
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-064",
+    "event_type": "EVIDENCE_SUBMITTED",
+    "aggregate_type": "evidence",
+    "aggregate_id": "evd-005",
+    "occurred_at": "2026-09-01T02:04:00.000Z",
+    "version": 1,
+    "summary": "丙地误用紫申展陈截图申报成果",
+    "payload": {
+      "project_id": "prj-002",
+      "evidence_type": "SCREENSHOT",
+      "content_hash": "sha256:abc111",
+      "canonical_key": "INV-2026-0001",
+      "submitted_by": "app-bing",
+      "submitted_at": "2027-01-05T10:00:00+08:00"
+    }
+  },
+  {
+    "event_id": "evt-065",
+    "event_type": "EVIDENCE_DUPLICATE_MATCHED",
+    "aggregate_type": "evidence",
+    "aggregate_id": "evd-005",
+    "occurred_at": "2026-09-01T02:05:00.000Z",
+    "version": 2,
+    "summary": "命中紫申已采信证据 evd-001",
+    "payload": {
+      "new_evidence_id": "evd-005",
+      "existing_evidence_id": "evd-001",
+      "match_type": "HASH",
+      "score": 1,
+      "across_scope": "cross-project-cross-applicant"
+    }
+  },
+  {
+    "event_id": "evt-066",
+    "event_type": "EVIDENCE_ACCEPTED",
+    "aggregate_type": "evidence",
+    "aggregate_id": "evd-005",
+    "occurred_at": "2026-09-01T02:06:00.000Z",
+    "version": 3,
+    "summary": "材料形式合规进入计量比对（成果归属待裁决）",
+    "payload": {
+      "reviewer_id": "staff-sun",
+      "accepted_at": "2027-01-06T10:00:00+08:00",
+      "canonical_outcome_id": "oc-expo-system"
+    }
+  },
+  {
+    "event_id": "evt-out-003",
+    "event_type": "OUTCOME_CONTRIBUTION_RECORDED",
+    "aggregate_type": "outcome_measure",
+    "aggregate_id": "out-003",
+    "occurred_at": "2026-09-01T02:07:00.000Z",
+    "version": 1,
+    "summary": "丙地尝试将同一成果计入指标",
+    "payload": {
+      "project_id": "prj-002",
+      "goal_code": "G-COUNTY-CONSUME",
+      "period_code": "2026",
+      "metric_code": "m-per-capita-culture-spend",
+      "canonical_outcome_id": "oc-expo-system",
+      "value": 9,
+      "unit": "元/人·年",
+      "evidence_ids": [
+        "evd-005"
+      ],
+      "region_allocation": [
+        {
+          "region_code": "330123",
+          "urban_rural": "rural",
+          "share_pct": 100
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-068",
+    "event_type": "OUTCOME_DEDUP_RESOLVED",
+    "aggregate_type": "outcome_measure",
+    "aggregate_id": "out-003",
+    "occurred_at": "2026-09-01T02:08:00.000Z",
+    "version": 2,
+    "summary": "裁决：成果归紫申，out-003 计为重复",
+    "payload": {
+      "kept_contribution_id": "evt-out-001",
+      "duplicate_contribution_ids": [
+        "evt-out-003"
+      ],
+      "ruling_decision_id": "evt-dec-dedup-outcome-01",
+      "rule": "SAME_CANONICAL_OUTCOME_IN_PERIOD"
+    }
+  },
+  {
+    "event_id": "evt-dec-term-01",
+    "event_type": "REVIEW_DECISION_RECORDED",
+    "aggregate_type": "governance_decision",
+    "aggregate_id": "dec-term-01",
+    "occurred_at": "2026-09-01T02:09:00.000Z",
+    "version": 1,
+    "summary": "省级部门决定终止 prj-002",
+    "payload": {
+      "decision_type": "PROJECT_TERMINATION",
+      "result": "APPROVED",
+      "subject_id": "prj-002",
+      "reason": "后续活动未开展且提供材料失实",
+      "actor_id": "leader-dept",
+      "actor_role": "PROVINCIAL_CULTURE_DEPT",
+      "basis_docs": [
+        "核查报告"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-070",
+    "event_type": "PROJECT_TERMINATED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "prj-002",
+    "occurred_at": "2026-09-01T02:10:00.000Z",
+    "version": 4,
+    "summary": "prj-002 终止，冻结后续支付",
+    "causation_id": "evt-dec-term-01",
+    "payload": {
+      "reason": "材料失实",
+      "effective_date": "2027-02-01"
+    }
+  },
+  {
+    "event_id": "evt-dec-recovery-01",
+    "event_type": "REVIEW_DECISION_RECORDED",
+    "aggregate_type": "governance_decision",
+    "aggregate_id": "dec-recovery-01",
+    "occurred_at": "2026-09-01T02:11:00.000Z",
+    "version": 1,
+    "summary": "省级部门决定追回已拨 20 万元",
+    "payload": {
+      "decision_type": "FUND_RECOVERY",
+      "result": "APPROVED",
+      "subject_id": "prj-002",
+      "actor_id": "leader-dept",
+      "actor_role": "PROVINCIAL_CULTURE_DEPT",
+      "basis_docs": [
+        "审计意见书"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-072",
+    "event_type": "FUNDS_RECOVERED",
+    "aggregate_type": "funded_project",
+    "aggregate_id": "prj-002",
+    "occurred_at": "2026-09-01T02:12:00.000Z",
+    "version": 5,
+    "summary": "追回 20 万元",
+    "causation_id": "evt-dec-recovery-01",
+    "payload": {
+      "idempotency_key": "recover:CTR-2026-002:ms-1:200000:0007",
+      "original_payment_ids": [
+        "pay:CTR-2026-002:ms-1:200000:0007"
+      ],
+      "amount": 200000,
+      "currency": "CNY",
+      "reason": "终止并追回",
+      "account_ref": "丙地 基本户 0007"
+    }
+  },
+  {
+    "event_id": "evt-073",
+    "event_type": "ASSESSMENT_PERIOD_LOCKED",
+    "aggregate_type": "assessment_period",
+    "aggregate_id": "period-2026",
+    "occurred_at": "2026-09-01T02:13:00.000Z",
+    "version": 2,
+    "summary": "锁定 2026 考核期",
+    "payload": {
+      "period_code": "2026",
+      "locked_by": "planning-dept",
+      "locked_at": "2027-03-15T17:00:00+08:00"
+    }
+  },
+  {
+    "event_id": "evt-dec-target-01",
+    "event_type": "REVIEW_DECISION_RECORDED",
+    "aggregate_type": "governance_decision",
+    "aggregate_id": "dec-target-01",
+    "occurred_at": "2026-09-01T02:14:00.000Z",
+    "version": 1,
+    "summary": "规划处决定上调 2027 指标",
+    "payload": {
+      "decision_type": "TARGET_ADJUSTMENT",
+      "result": "APPROVED",
+      "subject_id": "target-consume-2027",
+      "actor_id": "planning-dept",
+      "actor_role": "PLANNING_DEPARTMENT",
+      "basis_docs": [
+        "十五五中期评估报告"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-075",
+    "event_type": "ANNUAL_TARGET_ADJUSTED",
+    "aggregate_type": "annual_target",
+    "aggregate_id": "target-consume-2027",
+    "occurred_at": "2026-09-01T02:15:00.000Z",
+    "version": 2,
+    "summary": "2027 指标由 1750 调整为 1820",
+    "causation_id": "evt-dec-target-01",
+    "payload": {
+      "new_value": 1820,
+      "former_value": 1750,
+      "adjust_basis": "中期评估",
+      "effective_from": "2027-01-01",
+      "decision_event_id": "evt-dec-target-01"
+    }
+  },
+  {
+    "event_id": "evt-076",
+    "event_type": "PUBLIC_SUMMARY_RELEASED",
+    "aggregate_type": "public_release",
+    "aggregate_id": "rel-2026-final",
+    "occurred_at": "2026-09-01T02:16:00.000Z",
+    "version": 1,
+    "summary": "发布 2026 年度公开汇总",
+    "payload": {
+      "release_batch": "PUB-2026-FINAL",
+      "period_code": "2026",
+      "min_group_size": 3,
+      "diff_check_passed": true,
+      "released_at": "2027-03-20T10:00:00+08:00",
+      "cells": [
+        {
+          "cell_key": "county|urban",
+          "group_key": "county",
+          "beneficiary_count": 12,
+          "value": 1580
+        },
+        {
+          "cell_key": "county|rural",
+          "group_key": "county",
+          "beneficiary_count": 18,
+          "value": 1465
+        },
+        {
+          "cell_key": "county|total",
+          "group_key": "county",
+          "is_total": true,
+          "beneficiary_count": 30,
+          "value": 1512
+        }
+      ],
+      "suppressed_cells": [
+        "county|rural-remote-a",
+        "county|rural-remote-b",
+        "overseas|single-applicant"
+      ]
+    }
+  }
+]

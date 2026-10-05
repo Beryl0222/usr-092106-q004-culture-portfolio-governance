@@ -23,7 +23,45 @@
         "CONFLICT_DECLARED",
         "FUNDING_APPROVED",
         "MILESTONE_VERIFIED",
-        "FUNDS_RECOVERED"
+        "FUNDS_RECOVERED",
+        "PLAN_GOAL_DEFINED",
+        "PLAN_GOAL_RENAMED",
+        "FUNDING_PROGRAM_PUBLISHED",
+        "FUNDING_PROGRAM_RENAMED",
+        "ASSESSMENT_PERIOD_OPENED",
+        "ASSESSMENT_PERIOD_LOCKED",
+        "ANNUAL_TARGET_SET",
+        "ANNUAL_TARGET_ADJUSTED",
+        "APPLICANT_REGISTERED",
+        "CONTROL_RELATIONSHIP_RECORDED",
+        "CONTROL_RELATIONSHIP_RETRACTED",
+        "JOINT_APPLICATION_LINKED",
+        "APPLICATION_WITHDRAWN",
+        "APPLICANT_DUPLICATE_FLAGGED",
+        "APPLICATION_DUPLICATE_FLAGGED",
+        "APPLICATION_SUPPLEMENT_RECEIVED",
+        "APPLICATION_REJECTED",
+        "REVIEWER_ASSIGNED",
+        "REVIEW_DECISION_RECORDED",
+        "PROJECT_ESTABLISHED",
+        "BUDGET_SOURCE_SECURED",
+        "BUDGET_TRANSFER_REQUESTED",
+        "BUDGET_TRANSFER_APPROVED",
+        "CONTRACT_SIGNED",
+        "MILESTONE_PLANNED",
+        "MILESTONE_DELAY_REQUESTED",
+        "MILESTONE_DELAY_APPROVED",
+        "PROJECT_TERMINATED",
+        "EVIDENCE_SUBMITTED",
+        "EVIDENCE_DUPLICATE_MATCHED",
+        "EVIDENCE_ACCEPTED",
+        "EVIDENCE_REJECTED",
+        "PAYMENT_REQUESTED",
+        "PAYMENT_RELEASED",
+        "PAYMENT_BLOCKED",
+        "OUTCOME_CONTRIBUTION_RECORDED",
+        "OUTCOME_DEDUP_RESOLVED",
+        "PUBLIC_SUMMARY_RELEASED"
       ]
     },
     "aggregate_type": {
@@ -32,7 +70,17 @@
         "policy_goal",
         "funding_application",
         "funded_project",
-        "outcome_measure"
+        "outcome_measure",
+        "funding_program",
+        "assessment_period",
+        "annual_target",
+        "applicant",
+        "governance_decision",
+        "budget_allocation",
+        "contract",
+        "evidence",
+        "payment",
+        "public_release"
       ]
     },
     "aggregate_id": {
@@ -50,6 +98,21 @@
     "summary": {
       "type": "string",
       "minLength": 1
+    },
+    "causation_id": {
+      "type": "string",
+      "description": "触发本事件的前序决定或事件（更正链、决定链）",
+      "minLength": 1
+    },
+    "correlation_id": {
+      "type": "string",
+      "description": "贯穿同一业务流程（如一次申报、一个项目）的关联标识",
+      "minLength": 1
+    },
+    "payload": {
+      "type": "object",
+      "description": "事件业务载荷，字段约定见 docs/event-catalog.md",
+      "additionalProperties": true
     }
   },
   "additionalProperties": true
